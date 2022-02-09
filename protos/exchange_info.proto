@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package cs739;
+
+service ExchangeInfo {
+  rpc ExchangeInteger(Integer) returns(Integer) {}
+  rpc ExchangeDouble(Double) returns(Double) {}
+  rpc ExchangeString(String) returns(String) {}
+}
+
+message Integer {
+  int32 data = 1;
+}
+
+message Double { 
+  double data = 1;
+}
+
+message String {
+  string data = 1;
+}

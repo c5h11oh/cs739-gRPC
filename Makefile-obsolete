@@ -1,0 +1,46 @@
+CC = g++
+.SUFFIXES: .o .cc .h
+INCLUDE = -I. -I./protos
+CPPFLAGS += `pkg-config --cflags protobuf grpc grpc++`
+CPPFLAGS += $(INCLUDE) -Wall -Werror -std=c++11
+
+# LDFLAGS += -L/usr/local/lib `pkg-config --libs protobuf grpc grpc++`
+LDFLAGS += -L/usr/local/lib -L/u/w/u/wuh-chwen/cs739/p1/part3_grpc/install_dir/lib -lprotobuf -pthread -lgrpc++ -lgrpc -laddress_sorting -lre2 -lupb -lcares -lz -lgpr -lssl -lcrypto -labsl_raw_hash_set -labsl_hashtablez_sampler -labsl_hash -labsl_city -labsl_low_level_hash -labsl_random_distributions -labsl_random_seed_sequences -labsl_random_internal_pool_urbg -labsl_random_internal_randen -labsl_random_internal_randen_hwaes -labsl_random_internal_randen_hwaes_impl -labsl_random_internal_randen_slow -labsl_random_internal_platform -labsl_random_internal_seed_material -labsl_random_seed_gen_exception -labsl_statusor -labsl_status -labsl_cord -labsl_cordz_info -labsl_cord_internal -labsl_cordz_functions -labsl_exponential_biased -labsl_cordz_handle -labsl_bad_optional_access -labsl_str_format_internal -labsl_synchronization -labsl_graphcycles_internal -labsl_stacktrace -labsl_symbolize -labsl_debugging_internal -labsl_demangle_internal -labsl_malloc_internal -labsl_time -labsl_civil_time -labsl_strings -labsl_strings_internal -lrt -labsl_base -labsl_spinlock_wait -labsl_int128 -labsl_throw_delegate -labsl_time_zone -labsl_bad_variant_access -labsl_raw_logging_internal -labsl_log_severity\
+		-pthread\
+		-Wl,--no-as-needed -lgrpc++_reflection -Wl,--as-needed -ldl
+
+PROTOC = protoc
+GRPC_CPP_PLUGIN = grpc_cpp_plugin
+GRPC_CPP_PLUGIN_PATH ?= `which $(GRPC_CPP_PLUGIN)`
+PROTOS_PATH = protos
+
+vpath %.proto $(PROTOS_PATH)
+
+all: server client
+
+proto: exchange_info.grpc.pb.cc exchange_info.pb.cc
+
+server: server.o exchange_info.grpc.pb.o exchange_info.pb.o 
+	$(CC) $(LDFLAGS) -o $@ $^
+
+client: client.o exchange_info.grpc.pb.o exchange_info.pb.o
+	$(CC) $(LDFLAGS) -o $@ $^
+
+-include $(OBJS:%.o=%.d)
+
+%.d: %.cc
+	$(CC) -MM -MT $*.o -MF $@ $(CPPFLAGS) $<
+
+%.o: %.cc
+	$(CC) $(CPPFLAGS) -c -o $@ $<
+
+.PRECIOUS: %.grpc.pb.cc
+%.grpc.pb.cc: %.proto
+	$(PROTOC) -I $(PROTOS_PATH) --grpc_out=. --plugin=protoc-gen-grpc=$(GRPC_CPP_PLUGIN_PATH) $<
+
+.PRECIOUS: %.pb.cc
+%.pb.cc: %.proto
+	$(PROTOC) -I $(PROTOS_PATH) --cpp_out=. $<
+
+clean:
+	rm -f *.o *.pb.cc *.pb.h client server
