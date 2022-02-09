@@ -25,6 +25,7 @@ static const char* ExchangeInfo_method_names[] = {
   "/cs739.ExchangeInfo/ExchangeInteger",
   "/cs739.ExchangeInfo/ExchangeDouble",
   "/cs739.ExchangeInfo/ExchangeString",
+  "/cs739.ExchangeInfo/ExchangeComplex",
 };
 
 std::unique_ptr< ExchangeInfo::Stub> ExchangeInfo::NewStub(const std::shared_ptr< ::grpc::ChannelInterface>& channel, const ::grpc::StubOptions& options) {
@@ -37,6 +38,7 @@ ExchangeInfo::Stub::Stub(const std::shared_ptr< ::grpc::ChannelInterface>& chann
   : channel_(channel), rpcmethod_ExchangeInteger_(ExchangeInfo_method_names[0], options.suffix_for_stats(),::grpc::internal::RpcMethod::NORMAL_RPC, channel)
   , rpcmethod_ExchangeDouble_(ExchangeInfo_method_names[1], options.suffix_for_stats(),::grpc::internal::RpcMethod::NORMAL_RPC, channel)
   , rpcmethod_ExchangeString_(ExchangeInfo_method_names[2], options.suffix_for_stats(),::grpc::internal::RpcMethod::NORMAL_RPC, channel)
+  , rpcmethod_ExchangeComplex_(ExchangeInfo_method_names[3], options.suffix_for_stats(),::grpc::internal::RpcMethod::NORMAL_RPC, channel)
   {}
 
 ::grpc::Status ExchangeInfo::Stub::ExchangeInteger(::grpc::ClientContext* context, const ::cs739::Integer& request, ::cs739::Integer* response) {
@@ -108,6 +110,29 @@ void ExchangeInfo::Stub::async::ExchangeString(::grpc::ClientContext* context, c
   return result;
 }
 
+::grpc::Status ExchangeInfo::Stub::ExchangeComplex(::grpc::ClientContext* context, const ::cs739::Complex& request, ::cs739::Complex* response) {
+  return ::grpc::internal::BlockingUnaryCall< ::cs739::Complex, ::cs739::Complex, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(channel_.get(), rpcmethod_ExchangeComplex_, context, request, response);
+}
+
+void ExchangeInfo::Stub::async::ExchangeComplex(::grpc::ClientContext* context, const ::cs739::Complex* request, ::cs739::Complex* response, std::function<void(::grpc::Status)> f) {
+  ::grpc::internal::CallbackUnaryCall< ::cs739::Complex, ::cs739::Complex, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(stub_->channel_.get(), stub_->rpcmethod_ExchangeComplex_, context, request, response, std::move(f));
+}
+
+void ExchangeInfo::Stub::async::ExchangeComplex(::grpc::ClientContext* context, const ::cs739::Complex* request, ::cs739::Complex* response, ::grpc::ClientUnaryReactor* reactor) {
+  ::grpc::internal::ClientCallbackUnaryFactory::Create< ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(stub_->channel_.get(), stub_->rpcmethod_ExchangeComplex_, context, request, response, reactor);
+}
+
+::grpc::ClientAsyncResponseReader< ::cs739::Complex>* ExchangeInfo::Stub::PrepareAsyncExchangeComplexRaw(::grpc::ClientContext* context, const ::cs739::Complex& request, ::grpc::CompletionQueue* cq) {
+  return ::grpc::internal::ClientAsyncResponseReaderHelper::Create< ::cs739::Complex, ::cs739::Complex, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(channel_.get(), cq, rpcmethod_ExchangeComplex_, context, request);
+}
+
+::grpc::ClientAsyncResponseReader< ::cs739::Complex>* ExchangeInfo::Stub::AsyncExchangeComplexRaw(::grpc::ClientContext* context, const ::cs739::Complex& request, ::grpc::CompletionQueue* cq) {
+  auto* result =
+    this->PrepareAsyncExchangeComplexRaw(context, request, cq);
+  result->StartCall();
+  return result;
+}
+
 ExchangeInfo::Service::Service() {
   AddMethod(new ::grpc::internal::RpcServiceMethod(
       ExchangeInfo_method_names[0],
@@ -139,6 +164,16 @@ ExchangeInfo::Service::Service() {
              ::cs739::String* resp) {
                return service->ExchangeString(ctx, req, resp);
              }, this)));
+  AddMethod(new ::grpc::internal::RpcServiceMethod(
+      ExchangeInfo_method_names[3],
+      ::grpc::internal::RpcMethod::NORMAL_RPC,
+      new ::grpc::internal::RpcMethodHandler< ExchangeInfo::Service, ::cs739::Complex, ::cs739::Complex, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(
+          [](ExchangeInfo::Service* service,
+             ::grpc::ServerContext* ctx,
+             const ::cs739::Complex* req,
+             ::cs739::Complex* resp) {
+               return service->ExchangeComplex(ctx, req, resp);
+             }, this)));
 }
 
 ExchangeInfo::Service::~Service() {
@@ -159,6 +194,13 @@ ExchangeInfo::Service::~Service() {
 }
 
 ::grpc::Status ExchangeInfo::Service::ExchangeString(::grpc::ServerContext* context, const ::cs739::String* request, ::cs739::String* response) {
+  (void) context;
+  (void) request;
+  (void) response;
+  return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
+}
+
+::grpc::Status ExchangeInfo::Service::ExchangeComplex(::grpc::ServerContext* context, const ::cs739::Complex* request, ::cs739::Complex* response) {
   (void) context;
   (void) request;
   (void) response;

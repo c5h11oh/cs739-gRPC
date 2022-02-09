@@ -6,6 +6,7 @@ service ExchangeInfo {
   rpc ExchangeInteger(Integer) returns(Integer) {}
   rpc ExchangeDouble(Double) returns(Double) {}
   rpc ExchangeString(String) returns(String) {}
+  rpc ExchangeComplex(Complex) returns(Complex) {}
 }
 
 message Integer {
@@ -18,4 +19,10 @@ message Double {
 
 message String {
   string data = 1;
+}
+
+message Complex {
+  int32 i = 1;
+  double d = 2;
+  string s = 3;
 }

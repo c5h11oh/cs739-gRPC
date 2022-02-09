@@ -56,6 +56,13 @@ class ExchangeInfo final {
     std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::cs739::String>> PrepareAsyncExchangeString(::grpc::ClientContext* context, const ::cs739::String& request, ::grpc::CompletionQueue* cq) {
       return std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::cs739::String>>(PrepareAsyncExchangeStringRaw(context, request, cq));
     }
+    virtual ::grpc::Status ExchangeComplex(::grpc::ClientContext* context, const ::cs739::Complex& request, ::cs739::Complex* response) = 0;
+    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::cs739::Complex>> AsyncExchangeComplex(::grpc::ClientContext* context, const ::cs739::Complex& request, ::grpc::CompletionQueue* cq) {
+      return std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::cs739::Complex>>(AsyncExchangeComplexRaw(context, request, cq));
+    }
+    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::cs739::Complex>> PrepareAsyncExchangeComplex(::grpc::ClientContext* context, const ::cs739::Complex& request, ::grpc::CompletionQueue* cq) {
+      return std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::cs739::Complex>>(PrepareAsyncExchangeComplexRaw(context, request, cq));
+    }
     class async_interface {
      public:
       virtual ~async_interface() {}
@@ -65,6 +72,8 @@ class ExchangeInfo final {
       virtual void ExchangeDouble(::grpc::ClientContext* context, const ::cs739::Double* request, ::cs739::Double* response, ::grpc::ClientUnaryReactor* reactor) = 0;
       virtual void ExchangeString(::grpc::ClientContext* context, const ::cs739::String* request, ::cs739::String* response, std::function<void(::grpc::Status)>) = 0;
       virtual void ExchangeString(::grpc::ClientContext* context, const ::cs739::String* request, ::cs739::String* response, ::grpc::ClientUnaryReactor* reactor) = 0;
+      virtual void ExchangeComplex(::grpc::ClientContext* context, const ::cs739::Complex* request, ::cs739::Complex* response, std::function<void(::grpc::Status)>) = 0;
+      virtual void ExchangeComplex(::grpc::ClientContext* context, const ::cs739::Complex* request, ::cs739::Complex* response, ::grpc::ClientUnaryReactor* reactor) = 0;
     };
     typedef class async_interface experimental_async_interface;
     virtual class async_interface* async() { return nullptr; }
@@ -76,6 +85,8 @@ class ExchangeInfo final {
     virtual ::grpc::ClientAsyncResponseReaderInterface< ::cs739::Double>* PrepareAsyncExchangeDoubleRaw(::grpc::ClientContext* context, const ::cs739::Double& request, ::grpc::CompletionQueue* cq) = 0;
     virtual ::grpc::ClientAsyncResponseReaderInterface< ::cs739::String>* AsyncExchangeStringRaw(::grpc::ClientContext* context, const ::cs739::String& request, ::grpc::CompletionQueue* cq) = 0;
     virtual ::grpc::ClientAsyncResponseReaderInterface< ::cs739::String>* PrepareAsyncExchangeStringRaw(::grpc::ClientContext* context, const ::cs739::String& request, ::grpc::CompletionQueue* cq) = 0;
+    virtual ::grpc::ClientAsyncResponseReaderInterface< ::cs739::Complex>* AsyncExchangeComplexRaw(::grpc::ClientContext* context, const ::cs739::Complex& request, ::grpc::CompletionQueue* cq) = 0;
+    virtual ::grpc::ClientAsyncResponseReaderInterface< ::cs739::Complex>* PrepareAsyncExchangeComplexRaw(::grpc::ClientContext* context, const ::cs739::Complex& request, ::grpc::CompletionQueue* cq) = 0;
   };
   class Stub final : public StubInterface {
    public:
@@ -101,6 +112,13 @@ class ExchangeInfo final {
     std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::cs739::String>> PrepareAsyncExchangeString(::grpc::ClientContext* context, const ::cs739::String& request, ::grpc::CompletionQueue* cq) {
       return std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::cs739::String>>(PrepareAsyncExchangeStringRaw(context, request, cq));
     }
+    ::grpc::Status ExchangeComplex(::grpc::ClientContext* context, const ::cs739::Complex& request, ::cs739::Complex* response) override;
+    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::cs739::Complex>> AsyncExchangeComplex(::grpc::ClientContext* context, const ::cs739::Complex& request, ::grpc::CompletionQueue* cq) {
+      return std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::cs739::Complex>>(AsyncExchangeComplexRaw(context, request, cq));
+    }
+    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::cs739::Complex>> PrepareAsyncExchangeComplex(::grpc::ClientContext* context, const ::cs739::Complex& request, ::grpc::CompletionQueue* cq) {
+      return std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::cs739::Complex>>(PrepareAsyncExchangeComplexRaw(context, request, cq));
+    }
     class async final :
       public StubInterface::async_interface {
      public:
@@ -110,6 +128,8 @@ class ExchangeInfo final {
       void ExchangeDouble(::grpc::ClientContext* context, const ::cs739::Double* request, ::cs739::Double* response, ::grpc::ClientUnaryReactor* reactor) override;
       void ExchangeString(::grpc::ClientContext* context, const ::cs739::String* request, ::cs739::String* response, std::function<void(::grpc::Status)>) override;
       void ExchangeString(::grpc::ClientContext* context, const ::cs739::String* request, ::cs739::String* response, ::grpc::ClientUnaryReactor* reactor) override;
+      void ExchangeComplex(::grpc::ClientContext* context, const ::cs739::Complex* request, ::cs739::Complex* response, std::function<void(::grpc::Status)>) override;
+      void ExchangeComplex(::grpc::ClientContext* context, const ::cs739::Complex* request, ::cs739::Complex* response, ::grpc::ClientUnaryReactor* reactor) override;
      private:
       friend class Stub;
       explicit async(Stub* stub): stub_(stub) { }
@@ -127,9 +147,12 @@ class ExchangeInfo final {
     ::grpc::ClientAsyncResponseReader< ::cs739::Double>* PrepareAsyncExchangeDoubleRaw(::grpc::ClientContext* context, const ::cs739::Double& request, ::grpc::CompletionQueue* cq) override;
     ::grpc::ClientAsyncResponseReader< ::cs739::String>* AsyncExchangeStringRaw(::grpc::ClientContext* context, const ::cs739::String& request, ::grpc::CompletionQueue* cq) override;
     ::grpc::ClientAsyncResponseReader< ::cs739::String>* PrepareAsyncExchangeStringRaw(::grpc::ClientContext* context, const ::cs739::String& request, ::grpc::CompletionQueue* cq) override;
+    ::grpc::ClientAsyncResponseReader< ::cs739::Complex>* AsyncExchangeComplexRaw(::grpc::ClientContext* context, const ::cs739::Complex& request, ::grpc::CompletionQueue* cq) override;
+    ::grpc::ClientAsyncResponseReader< ::cs739::Complex>* PrepareAsyncExchangeComplexRaw(::grpc::ClientContext* context, const ::cs739::Complex& request, ::grpc::CompletionQueue* cq) override;
     const ::grpc::internal::RpcMethod rpcmethod_ExchangeInteger_;
     const ::grpc::internal::RpcMethod rpcmethod_ExchangeDouble_;
     const ::grpc::internal::RpcMethod rpcmethod_ExchangeString_;
+    const ::grpc::internal::RpcMethod rpcmethod_ExchangeComplex_;
   };
   static std::unique_ptr<Stub> NewStub(const std::shared_ptr< ::grpc::ChannelInterface>& channel, const ::grpc::StubOptions& options = ::grpc::StubOptions());
 
@@ -140,6 +163,7 @@ class ExchangeInfo final {
     virtual ::grpc::Status ExchangeInteger(::grpc::ServerContext* context, const ::cs739::Integer* request, ::cs739::Integer* response);
     virtual ::grpc::Status ExchangeDouble(::grpc::ServerContext* context, const ::cs739::Double* request, ::cs739::Double* response);
     virtual ::grpc::Status ExchangeString(::grpc::ServerContext* context, const ::cs739::String* request, ::cs739::String* response);
+    virtual ::grpc::Status ExchangeComplex(::grpc::ServerContext* context, const ::cs739::Complex* request, ::cs739::Complex* response);
   };
   template <class BaseClass>
   class WithAsyncMethod_ExchangeInteger : public BaseClass {
@@ -201,7 +225,27 @@ class ExchangeInfo final {
       ::grpc::Service::RequestAsyncUnary(2, context, request, response, new_call_cq, notification_cq, tag);
     }
   };
-  typedef WithAsyncMethod_ExchangeInteger<WithAsyncMethod_ExchangeDouble<WithAsyncMethod_ExchangeString<Service > > > AsyncService;
+  template <class BaseClass>
+  class WithAsyncMethod_ExchangeComplex : public BaseClass {
+   private:
+    void BaseClassMustBeDerivedFromService(const Service* /*service*/) {}
+   public:
+    WithAsyncMethod_ExchangeComplex() {
+      ::grpc::Service::MarkMethodAsync(3);
+    }
+    ~WithAsyncMethod_ExchangeComplex() override {
+      BaseClassMustBeDerivedFromService(this);
+    }
+    // disable synchronous version of this method
+    ::grpc::Status ExchangeComplex(::grpc::ServerContext* /*context*/, const ::cs739::Complex* /*request*/, ::cs739::Complex* /*response*/) override {
+      abort();
+      return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
+    }
+    void RequestExchangeComplex(::grpc::ServerContext* context, ::cs739::Complex* request, ::grpc::ServerAsyncResponseWriter< ::cs739::Complex>* response, ::grpc::CompletionQueue* new_call_cq, ::grpc::ServerCompletionQueue* notification_cq, void *tag) {
+      ::grpc::Service::RequestAsyncUnary(3, context, request, response, new_call_cq, notification_cq, tag);
+    }
+  };
+  typedef WithAsyncMethod_ExchangeInteger<WithAsyncMethod_ExchangeDouble<WithAsyncMethod_ExchangeString<WithAsyncMethod_ExchangeComplex<Service > > > > AsyncService;
   template <class BaseClass>
   class WithCallbackMethod_ExchangeInteger : public BaseClass {
    private:
@@ -283,7 +327,34 @@ class ExchangeInfo final {
     virtual ::grpc::ServerUnaryReactor* ExchangeString(
       ::grpc::CallbackServerContext* /*context*/, const ::cs739::String* /*request*/, ::cs739::String* /*response*/)  { return nullptr; }
   };
-  typedef WithCallbackMethod_ExchangeInteger<WithCallbackMethod_ExchangeDouble<WithCallbackMethod_ExchangeString<Service > > > CallbackService;
+  template <class BaseClass>
+  class WithCallbackMethod_ExchangeComplex : public BaseClass {
+   private:
+    void BaseClassMustBeDerivedFromService(const Service* /*service*/) {}
+   public:
+    WithCallbackMethod_ExchangeComplex() {
+      ::grpc::Service::MarkMethodCallback(3,
+          new ::grpc::internal::CallbackUnaryHandler< ::cs739::Complex, ::cs739::Complex>(
+            [this](
+                   ::grpc::CallbackServerContext* context, const ::cs739::Complex* request, ::cs739::Complex* response) { return this->ExchangeComplex(context, request, response); }));}
+    void SetMessageAllocatorFor_ExchangeComplex(
+        ::grpc::MessageAllocator< ::cs739::Complex, ::cs739::Complex>* allocator) {
+      ::grpc::internal::MethodHandler* const handler = ::grpc::Service::GetHandler(3);
+      static_cast<::grpc::internal::CallbackUnaryHandler< ::cs739::Complex, ::cs739::Complex>*>(handler)
+              ->SetMessageAllocator(allocator);
+    }
+    ~WithCallbackMethod_ExchangeComplex() override {
+      BaseClassMustBeDerivedFromService(this);
+    }
+    // disable synchronous version of this method
+    ::grpc::Status ExchangeComplex(::grpc::ServerContext* /*context*/, const ::cs739::Complex* /*request*/, ::cs739::Complex* /*response*/) override {
+      abort();
+      return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
+    }
+    virtual ::grpc::ServerUnaryReactor* ExchangeComplex(
+      ::grpc::CallbackServerContext* /*context*/, const ::cs739::Complex* /*request*/, ::cs739::Complex* /*response*/)  { return nullptr; }
+  };
+  typedef WithCallbackMethod_ExchangeInteger<WithCallbackMethod_ExchangeDouble<WithCallbackMethod_ExchangeString<WithCallbackMethod_ExchangeComplex<Service > > > > CallbackService;
   typedef CallbackService ExperimentalCallbackService;
   template <class BaseClass>
   class WithGenericMethod_ExchangeInteger : public BaseClass {
@@ -332,6 +403,23 @@ class ExchangeInfo final {
     }
     // disable synchronous version of this method
     ::grpc::Status ExchangeString(::grpc::ServerContext* /*context*/, const ::cs739::String* /*request*/, ::cs739::String* /*response*/) override {
+      abort();
+      return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
+    }
+  };
+  template <class BaseClass>
+  class WithGenericMethod_ExchangeComplex : public BaseClass {
+   private:
+    void BaseClassMustBeDerivedFromService(const Service* /*service*/) {}
+   public:
+    WithGenericMethod_ExchangeComplex() {
+      ::grpc::Service::MarkMethodGeneric(3);
+    }
+    ~WithGenericMethod_ExchangeComplex() override {
+      BaseClassMustBeDerivedFromService(this);
+    }
+    // disable synchronous version of this method
+    ::grpc::Status ExchangeComplex(::grpc::ServerContext* /*context*/, const ::cs739::Complex* /*request*/, ::cs739::Complex* /*response*/) override {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
@@ -394,6 +482,26 @@ class ExchangeInfo final {
     }
     void RequestExchangeString(::grpc::ServerContext* context, ::grpc::ByteBuffer* request, ::grpc::ServerAsyncResponseWriter< ::grpc::ByteBuffer>* response, ::grpc::CompletionQueue* new_call_cq, ::grpc::ServerCompletionQueue* notification_cq, void *tag) {
       ::grpc::Service::RequestAsyncUnary(2, context, request, response, new_call_cq, notification_cq, tag);
+    }
+  };
+  template <class BaseClass>
+  class WithRawMethod_ExchangeComplex : public BaseClass {
+   private:
+    void BaseClassMustBeDerivedFromService(const Service* /*service*/) {}
+   public:
+    WithRawMethod_ExchangeComplex() {
+      ::grpc::Service::MarkMethodRaw(3);
+    }
+    ~WithRawMethod_ExchangeComplex() override {
+      BaseClassMustBeDerivedFromService(this);
+    }
+    // disable synchronous version of this method
+    ::grpc::Status ExchangeComplex(::grpc::ServerContext* /*context*/, const ::cs739::Complex* /*request*/, ::cs739::Complex* /*response*/) override {
+      abort();
+      return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
+    }
+    void RequestExchangeComplex(::grpc::ServerContext* context, ::grpc::ByteBuffer* request, ::grpc::ServerAsyncResponseWriter< ::grpc::ByteBuffer>* response, ::grpc::CompletionQueue* new_call_cq, ::grpc::ServerCompletionQueue* notification_cq, void *tag) {
+      ::grpc::Service::RequestAsyncUnary(3, context, request, response, new_call_cq, notification_cq, tag);
     }
   };
   template <class BaseClass>
@@ -460,6 +568,28 @@ class ExchangeInfo final {
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
     virtual ::grpc::ServerUnaryReactor* ExchangeString(
+      ::grpc::CallbackServerContext* /*context*/, const ::grpc::ByteBuffer* /*request*/, ::grpc::ByteBuffer* /*response*/)  { return nullptr; }
+  };
+  template <class BaseClass>
+  class WithRawCallbackMethod_ExchangeComplex : public BaseClass {
+   private:
+    void BaseClassMustBeDerivedFromService(const Service* /*service*/) {}
+   public:
+    WithRawCallbackMethod_ExchangeComplex() {
+      ::grpc::Service::MarkMethodRawCallback(3,
+          new ::grpc::internal::CallbackUnaryHandler< ::grpc::ByteBuffer, ::grpc::ByteBuffer>(
+            [this](
+                   ::grpc::CallbackServerContext* context, const ::grpc::ByteBuffer* request, ::grpc::ByteBuffer* response) { return this->ExchangeComplex(context, request, response); }));
+    }
+    ~WithRawCallbackMethod_ExchangeComplex() override {
+      BaseClassMustBeDerivedFromService(this);
+    }
+    // disable synchronous version of this method
+    ::grpc::Status ExchangeComplex(::grpc::ServerContext* /*context*/, const ::cs739::Complex* /*request*/, ::cs739::Complex* /*response*/) override {
+      abort();
+      return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
+    }
+    virtual ::grpc::ServerUnaryReactor* ExchangeComplex(
       ::grpc::CallbackServerContext* /*context*/, const ::grpc::ByteBuffer* /*request*/, ::grpc::ByteBuffer* /*response*/)  { return nullptr; }
   };
   template <class BaseClass>
@@ -543,9 +673,36 @@ class ExchangeInfo final {
     // replace default version of method with streamed unary
     virtual ::grpc::Status StreamedExchangeString(::grpc::ServerContext* context, ::grpc::ServerUnaryStreamer< ::cs739::String,::cs739::String>* server_unary_streamer) = 0;
   };
-  typedef WithStreamedUnaryMethod_ExchangeInteger<WithStreamedUnaryMethod_ExchangeDouble<WithStreamedUnaryMethod_ExchangeString<Service > > > StreamedUnaryService;
+  template <class BaseClass>
+  class WithStreamedUnaryMethod_ExchangeComplex : public BaseClass {
+   private:
+    void BaseClassMustBeDerivedFromService(const Service* /*service*/) {}
+   public:
+    WithStreamedUnaryMethod_ExchangeComplex() {
+      ::grpc::Service::MarkMethodStreamed(3,
+        new ::grpc::internal::StreamedUnaryHandler<
+          ::cs739::Complex, ::cs739::Complex>(
+            [this](::grpc::ServerContext* context,
+                   ::grpc::ServerUnaryStreamer<
+                     ::cs739::Complex, ::cs739::Complex>* streamer) {
+                       return this->StreamedExchangeComplex(context,
+                         streamer);
+                  }));
+    }
+    ~WithStreamedUnaryMethod_ExchangeComplex() override {
+      BaseClassMustBeDerivedFromService(this);
+    }
+    // disable regular version of this method
+    ::grpc::Status ExchangeComplex(::grpc::ServerContext* /*context*/, const ::cs739::Complex* /*request*/, ::cs739::Complex* /*response*/) override {
+      abort();
+      return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
+    }
+    // replace default version of method with streamed unary
+    virtual ::grpc::Status StreamedExchangeComplex(::grpc::ServerContext* context, ::grpc::ServerUnaryStreamer< ::cs739::Complex,::cs739::Complex>* server_unary_streamer) = 0;
+  };
+  typedef WithStreamedUnaryMethod_ExchangeInteger<WithStreamedUnaryMethod_ExchangeDouble<WithStreamedUnaryMethod_ExchangeString<WithStreamedUnaryMethod_ExchangeComplex<Service > > > > StreamedUnaryService;
   typedef Service SplitStreamedService;
-  typedef WithStreamedUnaryMethod_ExchangeInteger<WithStreamedUnaryMethod_ExchangeDouble<WithStreamedUnaryMethod_ExchangeString<Service > > > StreamedService;
+  typedef WithStreamedUnaryMethod_ExchangeInteger<WithStreamedUnaryMethod_ExchangeDouble<WithStreamedUnaryMethod_ExchangeString<WithStreamedUnaryMethod_ExchangeComplex<Service > > > > StreamedService;
 };
 
 }  // namespace cs739

@@ -46,7 +46,7 @@ struct TableStruct_exchange_5finfo_2eproto {
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
   static const ::PROTOBUF_NAMESPACE_ID::internal::AuxiliaryParseTableField aux[]
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
-  static const ::PROTOBUF_NAMESPACE_ID::internal::ParseTable schema[3]
+  static const ::PROTOBUF_NAMESPACE_ID::internal::ParseTable schema[4]
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
   static const ::PROTOBUF_NAMESPACE_ID::internal::FieldMetadata field_metadata[];
   static const ::PROTOBUF_NAMESPACE_ID::internal::SerializationTable serialization_table[];
@@ -54,6 +54,9 @@ struct TableStruct_exchange_5finfo_2eproto {
 };
 extern const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_exchange_5finfo_2eproto;
 namespace cs739 {
+class Complex;
+struct ComplexDefaultTypeInternal;
+extern ComplexDefaultTypeInternal _Complex_default_instance_;
 class Double;
 struct DoubleDefaultTypeInternal;
 extern DoubleDefaultTypeInternal _Double_default_instance_;
@@ -65,6 +68,7 @@ struct StringDefaultTypeInternal;
 extern StringDefaultTypeInternal _String_default_instance_;
 }  // namespace cs739
 PROTOBUF_NAMESPACE_OPEN
+template<> ::cs739::Complex* Arena::CreateMaybeMessage<::cs739::Complex>(Arena*);
 template<> ::cs739::Double* Arena::CreateMaybeMessage<::cs739::Double>(Arena*);
 template<> ::cs739::Integer* Arena::CreateMaybeMessage<::cs739::Integer>(Arena*);
 template<> ::cs739::String* Arena::CreateMaybeMessage<::cs739::String>(Arena*);
@@ -514,6 +518,179 @@ class String final :
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_exchange_5finfo_2eproto;
 };
+// -------------------------------------------------------------------
+
+class Complex final :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:cs739.Complex) */ {
+ public:
+  inline Complex() : Complex(nullptr) {}
+  ~Complex() override;
+  explicit constexpr Complex(::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized);
+
+  Complex(const Complex& from);
+  Complex(Complex&& from) noexcept
+    : Complex() {
+    *this = ::std::move(from);
+  }
+
+  inline Complex& operator=(const Complex& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline Complex& operator=(Complex&& from) noexcept {
+    if (this == &from) return *this;
+    if (GetOwningArena() == from.GetOwningArena()
+  #ifdef PROTOBUF_FORCE_COPY_IN_MOVE
+        && GetOwningArena() != nullptr
+  #endif  // !PROTOBUF_FORCE_COPY_IN_MOVE
+    ) {
+      InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return default_instance().GetMetadata().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return default_instance().GetMetadata().reflection;
+  }
+  static const Complex& default_instance() {
+    return *internal_default_instance();
+  }
+  static inline const Complex* internal_default_instance() {
+    return reinterpret_cast<const Complex*>(
+               &_Complex_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    3;
+
+  friend void swap(Complex& a, Complex& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(Complex* other) {
+    if (other == this) return;
+  #ifdef PROTOBUF_FORCE_COPY_IN_SWAP
+    if (GetOwningArena() != nullptr &&
+        GetOwningArena() == other->GetOwningArena()) {
+   #else  // PROTOBUF_FORCE_COPY_IN_SWAP
+    if (GetOwningArena() == other->GetOwningArena()) {
+  #endif  // !PROTOBUF_FORCE_COPY_IN_SWAP
+      InternalSwap(other);
+    } else {
+      ::PROTOBUF_NAMESPACE_ID::internal::GenericSwap(this, other);
+    }
+  }
+  void UnsafeArenaSwap(Complex* other) {
+    if (other == this) return;
+    GOOGLE_DCHECK(GetOwningArena() == other->GetOwningArena());
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  Complex* New(::PROTOBUF_NAMESPACE_ID::Arena* arena = nullptr) const final {
+    return CreateMaybeMessage<Complex>(arena);
+  }
+  using ::PROTOBUF_NAMESPACE_ID::Message::CopyFrom;
+  void CopyFrom(const Complex& from);
+  using ::PROTOBUF_NAMESPACE_ID::Message::MergeFrom;
+  void MergeFrom(const Complex& from);
+  private:
+  static void MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to, const ::PROTOBUF_NAMESPACE_ID::Message& from);
+  public:
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  uint8_t* _InternalSerialize(
+      uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Complex* other);
+
+  private:
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "cs739.Complex";
+  }
+  protected:
+  explicit Complex(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                       bool is_message_owned = false);
+  private:
+  static void ArenaDtor(void* object);
+  inline void RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena* arena);
+  public:
+
+  static const ClassData _class_data_;
+  const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*GetClassData() const final;
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kSFieldNumber = 3,
+    kDFieldNumber = 2,
+    kIFieldNumber = 1,
+  };
+  // string s = 3;
+  void clear_s();
+  const std::string& s() const;
+  template <typename ArgT0 = const std::string&, typename... ArgT>
+  void set_s(ArgT0&& arg0, ArgT... args);
+  std::string* mutable_s();
+  PROTOBUF_NODISCARD std::string* release_s();
+  void set_allocated_s(std::string* s);
+  private:
+  const std::string& _internal_s() const;
+  inline PROTOBUF_ALWAYS_INLINE void _internal_set_s(const std::string& value);
+  std::string* _internal_mutable_s();
+  public:
+
+  // double d = 2;
+  void clear_d();
+  double d() const;
+  void set_d(double value);
+  private:
+  double _internal_d() const;
+  void _internal_set_d(double value);
+  public:
+
+  // int32 i = 1;
+  void clear_i();
+  int32_t i() const;
+  void set_i(int32_t value);
+  private:
+  int32_t _internal_i() const;
+  void _internal_set_i(int32_t value);
+  public:
+
+  // @@protoc_insertion_point(class_scope:cs739.Complex)
+ private:
+  class _Internal;
+
+  template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
+  typedef void InternalArenaConstructable_;
+  typedef void DestructorSkippable_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr s_;
+  double d_;
+  int32_t i_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_exchange_5finfo_2eproto;
+};
 // ===================================================================
 
 
@@ -624,9 +801,106 @@ inline void String::set_allocated_data(std::string* data) {
   // @@protoc_insertion_point(field_set_allocated:cs739.String.data)
 }
 
+// -------------------------------------------------------------------
+
+// Complex
+
+// int32 i = 1;
+inline void Complex::clear_i() {
+  i_ = 0;
+}
+inline int32_t Complex::_internal_i() const {
+  return i_;
+}
+inline int32_t Complex::i() const {
+  // @@protoc_insertion_point(field_get:cs739.Complex.i)
+  return _internal_i();
+}
+inline void Complex::_internal_set_i(int32_t value) {
+  
+  i_ = value;
+}
+inline void Complex::set_i(int32_t value) {
+  _internal_set_i(value);
+  // @@protoc_insertion_point(field_set:cs739.Complex.i)
+}
+
+// double d = 2;
+inline void Complex::clear_d() {
+  d_ = 0;
+}
+inline double Complex::_internal_d() const {
+  return d_;
+}
+inline double Complex::d() const {
+  // @@protoc_insertion_point(field_get:cs739.Complex.d)
+  return _internal_d();
+}
+inline void Complex::_internal_set_d(double value) {
+  
+  d_ = value;
+}
+inline void Complex::set_d(double value) {
+  _internal_set_d(value);
+  // @@protoc_insertion_point(field_set:cs739.Complex.d)
+}
+
+// string s = 3;
+inline void Complex::clear_s() {
+  s_.ClearToEmpty();
+}
+inline const std::string& Complex::s() const {
+  // @@protoc_insertion_point(field_get:cs739.Complex.s)
+  return _internal_s();
+}
+template <typename ArgT0, typename... ArgT>
+inline PROTOBUF_ALWAYS_INLINE
+void Complex::set_s(ArgT0&& arg0, ArgT... args) {
+ 
+ s_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, static_cast<ArgT0 &&>(arg0), args..., GetArenaForAllocation());
+  // @@protoc_insertion_point(field_set:cs739.Complex.s)
+}
+inline std::string* Complex::mutable_s() {
+  std::string* _s = _internal_mutable_s();
+  // @@protoc_insertion_point(field_mutable:cs739.Complex.s)
+  return _s;
+}
+inline const std::string& Complex::_internal_s() const {
+  return s_.Get();
+}
+inline void Complex::_internal_set_s(const std::string& value) {
+  
+  s_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, value, GetArenaForAllocation());
+}
+inline std::string* Complex::_internal_mutable_s() {
+  
+  return s_.Mutable(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, GetArenaForAllocation());
+}
+inline std::string* Complex::release_s() {
+  // @@protoc_insertion_point(field_release:cs739.Complex.s)
+  return s_.Release(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArenaForAllocation());
+}
+inline void Complex::set_allocated_s(std::string* s) {
+  if (s != nullptr) {
+    
+  } else {
+    
+  }
+  s_.SetAllocated(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), s,
+      GetArenaForAllocation());
+#ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+  if (s_.IsDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited())) {
+    s_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
+  }
+#endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
+  // @@protoc_insertion_point(field_set_allocated:cs739.Complex.s)
+}
+
 #ifdef __GNUC__
   #pragma GCC diagnostic pop
 #endif  // __GNUC__
+// -------------------------------------------------------------------
+
 // -------------------------------------------------------------------
 
 // -------------------------------------------------------------------
