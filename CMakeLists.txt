@@ -6,7 +6,7 @@ add_compile_options(-std=c++11)
 # https://github.com/IvanSafonov/grpc-cmake-example/blob/master/CMakeLists.txt
 
 # GRPC and Protocol Buffers libraries location
-list(APPEND CMAKE_PREFIX_PATH "/u/w/u/wuh-chwen/cs739/p1/part3_grpc/install_dir")
+list(APPEND CMAKE_PREFIX_PATH "/u/w/u/wuh-chwen/cs739/p1/part3_grpc/install_dir/gRPC")
 
 # Cmake find modules
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
@@ -44,14 +44,15 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 
 # -- compile .proto to .cc and .h 
 #    modified from grpc/examples/cpp/helloworld/CMakeLists.txt
+foreach(_service_name exchange_info send_file)
     # Proto file
-    get_filename_component(hw_proto "protos/exchange_info.proto" ABSOLUTE)
+    get_filename_component(hw_proto "protos/${_service_name}.proto" ABSOLUTE)
     get_filename_component(hw_proto_path "${hw_proto}" PATH)
     # Generated sources
-    set(hw_proto_srcs "${CMAKE_CURRENT_BINARY_DIR}/exchange_info.pb.cc")
-    set(hw_proto_hdrs "${CMAKE_CURRENT_BINARY_DIR}/exchange_info.pb.h")
-    set(hw_grpc_srcs "${CMAKE_CURRENT_BINARY_DIR}/exchange_info.grpc.pb.cc")
-    set(hw_grpc_hdrs "${CMAKE_CURRENT_BINARY_DIR}/exchange_info.grpc.pb.h")
+    set(hw_proto_srcs "${CMAKE_CURRENT_BINARY_DIR}/${_service_name}.pb.cc")
+    set(hw_proto_hdrs "${CMAKE_CURRENT_BINARY_DIR}/${_service_name}.pb.h")
+    set(hw_grpc_srcs "${CMAKE_CURRENT_BINARY_DIR}/${_service_name}.grpc.pb.cc")
+    set(hw_grpc_hdrs "${CMAKE_CURRENT_BINARY_DIR}/${_service_name}.grpc.pb.h")
     add_custom_command(
         OUTPUT "${hw_proto_srcs}" "${hw_proto_hdrs}" "${hw_grpc_srcs}" "${hw_grpc_hdrs}"
         COMMAND ${_PROTOBUF_PROTOC}
@@ -61,28 +62,31 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
             --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
             "${hw_proto}"
             DEPENDS "${hw_proto}")
+
 # -- end of compile .proto to .cc and .h 
             
 # Include generated *.pb.h files
 include_directories("${CMAKE_CURRENT_BINARY_DIR}")
 
 # hw_grpc_proto
-add_library(hw_grpc_proto
+add_library(${_service_name}_hw_grpc_proto
   ${hw_grpc_srcs}
   ${hw_grpc_hdrs}
   ${hw_proto_srcs}
   ${hw_proto_hdrs})
-target_link_libraries(hw_grpc_proto
+target_link_libraries(${_service_name}_hw_grpc_proto
   ${_REFLECTION}
   ${_GRPC_GRPCPP}
   ${_PROTOBUF_LIBPROTOBUF})
 
 foreach(_target client server)
-    add_executable(${_target} "${_target}.cc")
-    target_link_libraries(${_target}
-        hw_grpc_proto
+    add_executable(${_service_name}_${_target} "${_service_name}_${_target}.cc")
+    target_link_libraries(${_service_name}_${_target}
+        ${_service_name}_hw_grpc_proto
         ${_REFLECTION}
         ${_GRPC_GRPCPP}
         ${_PROTOBUF_LIBPROTOBUF}
     )
-endforeach()
+endforeach(_target)
+
+endforeach(_service_name)
