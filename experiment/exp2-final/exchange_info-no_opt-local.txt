@@ -1,0 +1,151 @@
+Roundtrip...
+-------------------------
+Connecting to server localhost:53706
+
+Serialize takes: 1630ns. 
+Deserialize takes: 5052ns. 
+Round-trip time: 4905364 ns
+Request time:    4622052 ns
+Response time:   283312 ns
+
+
+Serialize takes: 1283ns. 
+Deserialize takes: 2661ns. 
+Round-trip time: 417721 ns
+Request time:    275727 ns
+Response time:   141994 ns
+
+
+Serialize takes: 885ns. 
+Deserialize takes: 2487ns. 
+Round-trip time: 413157 ns
+Request time:    271919 ns
+Response time:   141238 ns
+
+
+Serialize takes: 865ns. 
+Deserialize takes: 3165ns. 
+Round-trip time: 406657 ns
+Request time:    252516 ns
+Response time:   154141 ns
+
+
+Serialize takes: 1013ns. 
+Deserialize takes: 3216ns. 
+Round-trip time: 449645 ns
+Request time:    288858 ns
+Response time:   160787 ns
+
+
+Serialize takes: 1000ns. 
+Deserialize takes: 2774ns. 
+Round-trip time: 412993 ns
+Request time:    259096 ns
+Response time:   153897 ns
+
+
+Serialize takes: 897ns. 
+Deserialize takes: 2659ns. 
+Round-trip time: 419234 ns
+Request time:    275918 ns
+Response time:   143316 ns
+
+
+Serialize takes: 874ns. 
+Deserialize takes: 1527ns. 
+Round-trip time: 271919 ns
+Request time:    195123 ns
+Response time:   76796 ns
+
+
+Serialize takes: 487ns. 
+Deserialize takes: 1462ns. 
+Round-trip time: 215568 ns
+Request time:    140186 ns
+Response time:   75382 ns
+
+
+Serialize takes: 498ns. 
+Deserialize takes: 1431ns. 
+Round-trip time: 221775 ns
+Request time:    147211 ns
+Response time:   74564 ns
+
+
+
+Marshal and unmarshal...
+-------------------------
+Connecting to server localhost:53706
+
+[Integer]
+Serialize takes: 714ns. 
+Deserialize takes: 3046ns. 
+Serialize takes: 729ns. 
+Deserialize takes: 1291ns. 
+Serialize takes: 510ns. 
+Deserialize takes: 1247ns. 
+Serialize takes: 507ns. 
+Deserialize takes: 1237ns. 
+Serialize takes: 454ns. 
+Deserialize takes: 1588ns. 
+
+[Double]
+Serialize takes: 599ns. 
+Deserialize takes: 1529ns. 
+Serialize takes: 504ns. 
+Deserialize takes: 1192ns. 
+Serialize takes: 481ns. 
+Deserialize takes: 1204ns. 
+Serialize takes: 451ns. 
+Deserialize takes: 1167ns. 
+Serialize takes: 460ns. 
+Deserialize takes: 1151ns. 
+
+[String - 10 chars]
+Serialize takes: 1109ns. 
+Deserialize takes: 2487ns. 
+Serialize takes: 628ns. 
+Deserialize takes: 1873ns. 
+Serialize takes: 589ns. 
+Deserialize takes: 1858ns. 
+Serialize takes: 592ns. 
+Deserialize takes: 1846ns. 
+Serialize takes: 565ns. 
+Deserialize takes: 1825ns. 
+
+[String - 100 chars]
+Serialize takes: 2389ns. 
+Deserialize takes: 2141ns. 
+Serialize takes: 1489ns. 
+Deserialize takes: 2094ns. 
+Serialize takes: 1363ns. 
+Deserialize takes: 2071ns. 
+Serialize takes: 1320ns. 
+Deserialize takes: 2061ns. 
+Serialize takes: 1335ns. 
+Deserialize takes: 2057ns. 
+
+[String - 1000 chars]
+Serialize takes: 1871ns. 
+Deserialize takes: 2957ns. 
+Serialize takes: 1772ns. 
+Deserialize takes: 2498ns. 
+Serialize takes: 1660ns. 
+Deserialize takes: 2431ns. 
+Serialize takes: 1669ns. 
+Deserialize takes: 2406ns. 
+Serialize takes: 1683ns. 
+Deserialize takes: 2412ns. 
+
+[Complex]
+Serialize takes: 1522ns. 
+Deserialize takes: 2986ns. 
+Serialize takes: 1535ns. 
+Deserialize takes: 2786ns. 
+Serialize takes: 1513ns. 
+Deserialize takes: 2752ns. 
+Serialize takes: 1499ns. 
+Deserialize takes: 2831ns. 
+Serialize takes: 1531ns. 
+Deserialize takes: 3945ns. 
+

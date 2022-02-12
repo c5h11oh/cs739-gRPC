@@ -1,0 +1,75 @@
+Roundtrip...
+-------------------------
+Connecting to server royal-09:53706
+
+Serialize takes: 2018ns. 
+Deserialize takes: 33979ns. 
+Round-trip time: 88460496 ns
+Request time:    -180288082100154 ns
+Response time:   180288170560650 ns
+
+
+Serialize takes: 1616ns. 
+Deserialize takes: 4095ns. 
+Round-trip time: 886870 ns
+Request time:    -180288169361433 ns
+Response time:   180288170248303 ns
+
+
+Serialize takes: 1306ns. 
+Deserialize takes: 6495ns. 
+Round-trip time: 1226462 ns
+Request time:    -180288169149279 ns
+Response time:   180288170375741 ns
+
+
+Serialize takes: 1647ns. 
+Deserialize takes: 4375ns. 
+Round-trip time: 1007915 ns
+Request time:    -180288169275570 ns
+Response time:   180288170283485 ns
+
+
+Serialize takes: 1269ns. 
+Deserialize takes: 4158ns. 
+Round-trip time: 985938 ns
+Request time:    -180288169302503 ns
+Response time:   180288170288441 ns
+
+
+Serialize takes: 1449ns. 
+Deserialize takes: 4241ns. 
+Round-trip time: 1213857 ns
+Request time:    -180288169121160 ns
+Response time:   180288170335017 ns
+
+
+Serialize takes: 1289ns. 
+Deserialize takes: 4348ns. 
+Round-trip time: 1007889 ns
+Request time:    -180288169289265 ns
+Response time:   180288170297154 ns
+
+
+Serialize takes: 1369ns. 
+Deserialize takes: 4204ns. 
+Round-trip time: 943160 ns
+Request time:    -180288169344848 ns
+Response time:   180288170288008 ns
+
+
+Serialize takes: 1352ns. 
+Deserialize takes: 4207ns. 
+Round-trip time: 1232189 ns
+Request time:    -180288169098858 ns
+Response time:   180288170331047 ns
+
+
+Serialize takes: 1357ns. 
+Deserialize takes: 4273ns. 
+Round-trip time: 944602 ns
+Request time:    -180288169301003 ns
+Response time:   180288170245605 ns
+
+
+

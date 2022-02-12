@@ -1,0 +1,49 @@
+Serialize takes: 8783ns. 
+Serialize takes: 2719ns. 
+Serialize takes: 1275ns. 
+Serialize takes: 1209ns. 
+Serialize takes: 1162ns. 
+Serialize takes: 1239ns. 
+Serialize takes: 1099ns. 
+Serialize takes: 1185ns. 
+Serialize takes: 1121ns. 
+Serialize takes: 1105ns. 
+Serialize takes: 2025ns. 
+Serialize takes: 1414ns. 
+Serialize takes: 1667ns. 
+Serialize takes: 1319ns. 
+Serialize takes: 1388ns. 
+Serialize takes: 1337ns. 
+Serialize takes: 1204ns. 
+Serialize takes: 2087ns. 
+Serialize takes: 1509ns. 
+Serialize takes: 1328ns. 
+Serialize takes: 1474ns. 
+Serialize takes: 1293ns. 
+Deserialize takes: 6025ns. 
+Measure bandwidth:
+size	duration (ns)	bandwidth (Bps)
+  12288	       80994	151714941.8
+  12288	       22273	551699366.9
+  12288	       18725	656234980.0
+  12288	       16357	751238002.1
+  12288	       17376	707182320.4
+  12288	       17496	702331961.6
+  12288	       15574	789007319.9
+  12288	       17558	699851919.4
+  12288	       15066	815611310.2
+  12288	       59431	206760781.4
+  12288	       64716	189875764.9
+  12288	       42243	290888431.2
+  12288	       58144	211337369.3
+  12288	       44338	277143759.3
+  12288	       38725	317314396.4
+  12288	       36036	340992341.0
+  12288	      460415	 26688965.4
+  12288	       40773	301375910.5
+  12288	       31916	385010653.0
+  12288	       28393	432782728.1
+  12288	       24571	500101746.0
+   4096	       40075	102208359.3
+------------------ Total ------------------
+262144	1191195	2.20068e+08

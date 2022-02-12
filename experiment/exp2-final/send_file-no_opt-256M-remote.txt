@@ -1,0 +1,17 @@
+Serialize takes: 7667ns. 
+Serialize takes: 2255ns. 
+Serialize takes: 1564ns. 
+Serialize takes: 1480ns. 
+Serialize takes: 1487ns. 
+Serialize takes: 1384ns. 
+Serialize takes: 1442ns. 
+Serialize takes: 1404ns. 
+Serialize takes: 1384ns. 
+Serialize takes: 2295ns. 
+Serialize takes: 1505ns. 
+Serialize takes: 1382ns. 
+Serialize takes: 1282ns. 
+Serialize takes: 1334ns. 
+Serialize takes: 10159ns. 
+12: 
+Fail to send file

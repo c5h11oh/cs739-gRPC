@@ -1,0 +1,2737 @@
+Serialize takes: 10677ns. 
+Serialize takes: 2160ns. 
+Serialize takes: 1991ns. 
+Serialize takes: 2018ns. 
+Serialize takes: 1934ns. 
+Serialize takes: 1797ns. 
+Serialize takes: 1834ns. 
+Serialize takes: 2056ns. 
+Serialize takes: 1943ns. 
+Serialize takes: 1916ns. 
+Serialize takes: 1886ns. 
+Serialize takes: 1824ns. 
+Serialize takes: 1945ns. 
+Serialize takes: 1922ns. 
+Serialize takes: 1928ns. 
+Serialize takes: 1855ns. 
+Serialize takes: 1915ns. 
+Serialize takes: 1919ns. 
+Serialize takes: 1837ns. 
+Serialize takes: 1927ns. 
+Serialize takes: 1931ns. 
+Serialize takes: 1850ns. 
+Serialize takes: 1902ns. 
+Serialize takes: 1907ns. 
+Serialize takes: 1844ns. 
+Serialize takes: 1899ns. 
+Serialize takes: 1906ns. 
+Serialize takes: 1945ns. 
+Serialize takes: 1873ns. 
+Serialize takes: 1868ns. 
+Serialize takes: 1957ns. 
+Serialize takes: 1945ns. 
+Serialize takes: 1974ns. 
+Serialize takes: 1934ns. 
+Serialize takes: 1918ns. 
+Serialize takes: 2072ns. 
+Serialize takes: 1858ns. 
+Serialize takes: 1838ns. 
+Serialize takes: 1886ns. 
+Serialize takes: 1765ns. 
+Serialize takes: 1792ns. 
+Serialize takes: 1840ns. 
+Serialize takes: 1947ns. 
+Serialize takes: 1874ns. 
+Serialize takes: 1707ns. 
+Serialize takes: 1645ns. 
+Serialize takes: 1782ns. 
+Serialize takes: 1852ns. 
+Serialize takes: 1870ns. 
+Serialize takes: 1727ns. 
+Serialize takes: 1678ns. 
+Serialize takes: 1707ns. 
+Serialize takes: 1734ns. 
+Serialize takes: 1682ns. 
+Serialize takes: 1663ns. 
+Serialize takes: 1846ns. 
+Serialize takes: 1773ns. 
+Serialize takes: 1677ns. 
+Serialize takes: 1744ns. 
+Serialize takes: 1765ns. 
+Serialize takes: 1680ns. 
+Serialize takes: 1740ns. 
+Serialize takes: 1768ns. 
+Serialize takes: 1767ns. 
+Serialize takes: 1719ns. 
+Serialize takes: 1787ns. 
+Serialize takes: 1690ns. 
+Serialize takes: 1806ns. 
+Serialize takes: 1700ns. 
+Serialize takes: 1782ns. 
+Serialize takes: 1878ns. 
+Serialize takes: 1778ns. 
+Serialize takes: 1727ns. 
+Serialize takes: 2263ns. 
+Serialize takes: 1728ns. 
+Serialize takes: 1783ns. 
+Serialize takes: 1694ns. 
+Serialize takes: 1656ns. 
+Serialize takes: 1690ns. 
+Serialize takes: 1824ns. 
+Serialize takes: 1776ns. 
+Serialize takes: 1892ns. 
+Serialize takes: 1903ns. 
+Serialize takes: 1821ns. 
+Serialize takes: 1880ns. 
+Serialize takes: 6209ns. 
+Serialize takes: 2059ns. 
+Serialize takes: 1845ns. 
+Serialize takes: 1969ns. 
+Serialize takes: 1807ns. 
+Serialize takes: 1922ns. 
+Serialize takes: 1984ns. 
+Serialize takes: 1826ns. 
+Serialize takes: 1716ns. 
+Serialize takes: 1763ns. 
+Serialize takes: 1857ns. 
+Serialize takes: 2265ns. 
+Serialize takes: 1845ns. 
+Serialize takes: 1784ns. 
+Serialize takes: 1930ns. 
+Serialize takes: 1831ns. 
+Serialize takes: 2033ns. 
+Serialize takes: 1781ns. 
+Serialize takes: 1998ns. 
+Serialize takes: 1887ns. 
+Serialize takes: 1933ns. 
+Serialize takes: 1939ns. 
+Serialize takes: 1907ns. 
+Serialize takes: 1737ns. 
+Serialize takes: 1977ns. 
+Serialize takes: 1830ns. 
+Serialize takes: 1785ns. 
+Serialize takes: 1762ns. 
+Serialize takes: 1865ns. 
+Serialize takes: 1794ns. 
+Serialize takes: 1892ns. 
+Serialize takes: 1767ns. 
+Serialize takes: 1810ns. 
+Serialize takes: 1950ns. 
+Serialize takes: 1867ns. 
+Serialize takes: 1881ns. 
+Serialize takes: 1744ns. 
+Serialize takes: 2006ns. 
+Serialize takes: 1874ns. 
+Serialize takes: 1938ns. 
+Serialize takes: 1886ns. 
+Serialize takes: 1765ns. 
+Serialize takes: 1835ns. 
+Serialize takes: 1797ns. 
+Serialize takes: 1803ns. 
+Serialize takes: 1831ns. 
+Serialize takes: 1912ns. 
+Serialize takes: 1831ns. 
+Serialize takes: 1804ns. 
+Serialize takes: 6486ns. 
+Serialize takes: 1846ns. 
+Serialize takes: 1763ns. 
+Serialize takes: 1959ns. 
+Serialize takes: 1874ns. 
+Serialize takes: 1876ns. 
+Serialize takes: 1939ns. 
+Serialize takes: 1847ns. 
+Serialize takes: 1945ns. 
+Serialize takes: 1944ns. 
+Serialize takes: 1923ns. 
+Serialize takes: 2029ns. 
+Serialize takes: 1889ns. 
+Serialize takes: 1905ns. 
+Serialize takes: 1821ns. 
+Serialize takes: 1907ns. 
+Serialize takes: 1844ns. 
+Serialize takes: 1946ns. 
+Serialize takes: 1757ns. 
+Serialize takes: 1816ns. 
+Serialize takes: 1814ns. 
+Serialize takes: 2072ns. 
+Serialize takes: 1780ns. 
+Serialize takes: 1793ns. 
+Serialize takes: 1905ns. 
+Serialize takes: 1864ns. 
+Serialize takes: 1870ns. 
+Serialize takes: 1826ns. 
+Serialize takes: 2028ns. 
+Serialize takes: 1947ns. 
+Serialize takes: 1835ns. 
+Serialize takes: 1906ns. 
+Serialize takes: 1964ns. 
+Serialize takes: 1964ns. 
+Serialize takes: 7724ns. 
+Serialize takes: 2033ns. 
+Serialize takes: 5269ns. 
+Serialize takes: 2166ns. 
+Serialize takes: 2199ns. 
+Serialize takes: 2001ns. 
+Serialize takes: 1789ns. 
+Serialize takes: 2108ns. 
+Serialize takes: 2174ns. 
+Serialize takes: 2015ns. 
+Serialize takes: 2205ns. 
+Serialize takes: 2101ns. 
+Serialize takes: 2133ns. 
+Serialize takes: 2040ns. 
+Serialize takes: 2098ns. 
+Serialize takes: 2036ns. 
+Serialize takes: 2148ns. 
+Serialize takes: 2007ns. 
+Serialize takes: 2169ns. 
+Serialize takes: 2083ns. 
+Serialize takes: 2111ns. 
+Serialize takes: 2057ns. 
+Serialize takes: 2101ns. 
+Serialize takes: 2090ns. 
+Serialize takes: 2142ns. 
+Serialize takes: 2072ns. 
+Serialize takes: 2144ns. 
+Serialize takes: 2115ns. 
+Serialize takes: 2078ns. 
+Serialize takes: 2138ns. 
+Serialize takes: 2063ns. 
+Serialize takes: 2266ns. 
+Serialize takes: 1842ns. 
+Serialize takes: 1853ns. 
+Serialize takes: 1869ns. 
+Serialize takes: 1892ns. 
+Serialize takes: 1998ns. 
+Serialize takes: 2144ns. 
+Serialize takes: 2035ns. 
+Serialize takes: 2096ns. 
+Serialize takes: 2009ns. 
+Serialize takes: 2006ns. 
+Serialize takes: 1972ns. 
+Serialize takes: 2117ns. 
+Serialize takes: 2021ns. 
+Serialize takes: 2158ns. 
+Serialize takes: 2063ns. 
+Serialize takes: 2078ns. 
+Serialize takes: 1999ns. 
+Serialize takes: 2132ns. 
+Serialize takes: 2053ns. 
+Serialize takes: 2111ns. 
+Serialize takes: 2067ns. 
+Serialize takes: 2065ns. 
+Serialize takes: 2022ns. 
+Serialize takes: 2097ns. 
+Serialize takes: 2101ns. 
+Serialize takes: 2072ns. 
+Serialize takes: 2208ns. 
+Serialize takes: 2084ns. 
+Serialize takes: 2077ns. 
+Serialize takes: 2051ns. 
+Serialize takes: 2062ns. 
+Serialize takes: 2114ns. 
+Serialize takes: 2061ns. 
+Serialize takes: 2115ns. 
+Serialize takes: 2014ns. 
+Serialize takes: 2069ns. 
+Serialize takes: 2019ns. 
+Serialize takes: 1987ns. 
+Serialize takes: 2049ns. 
+Serialize takes: 2107ns. 
+Serialize takes: 2103ns. 
+Serialize takes: 2103ns. 
+Serialize takes: 2071ns. 
+Serialize takes: 2067ns. 
+Serialize takes: 1999ns. 
+Serialize takes: 2115ns. 
+Serialize takes: 2070ns. 
+Serialize takes: 1992ns. 
+Serialize takes: 2075ns. 
+Serialize takes: 2069ns. 
+Serialize takes: 2050ns. 
+Serialize takes: 2139ns. 
+Serialize takes: 2012ns. 
+Serialize takes: 2088ns. 
+Serialize takes: 2028ns. 
+Serialize takes: 2138ns. 
+Serialize takes: 15213ns. 
+Serialize takes: 2142ns. 
+Serialize takes: 1846ns. 
+Serialize takes: 2120ns. 
+Serialize takes: 1921ns. 
+Serialize takes: 1791ns. 
+Serialize takes: 1916ns. 
+Serialize takes: 1849ns. 
+Serialize takes: 1912ns. 
+Serialize takes: 1983ns. 
+Serialize takes: 1853ns. 
+Serialize takes: 1857ns. 
+Serialize takes: 1806ns. 
+Serialize takes: 2337ns. 
+Serialize takes: 2023ns. 
+Serialize takes: 10992ns. 
+Serialize takes: 1851ns. 
+Serialize takes: 1845ns. 
+Serialize takes: 1850ns. 
+Serialize takes: 1678ns. 
+Serialize takes: 2363ns. 
+Serialize takes: 1930ns. 
+Serialize takes: 1861ns. 
+Serialize takes: 2043ns. 
+Serialize takes: 2226ns. 
+Serialize takes: 2089ns. 
+Serialize takes: 1805ns. 
+Serialize takes: 2133ns. 
+Serialize takes: 2168ns. 
+Serialize takes: 2097ns. 
+Serialize takes: 2126ns. 
+Serialize takes: 2325ns. 
+Serialize takes: 2013ns. 
+Serialize takes: 2097ns. 
+Serialize takes: 2197ns. 
+Serialize takes: 1776ns. 
+Serialize takes: 2080ns. 
+Serialize takes: 2034ns. 
+Serialize takes: 2158ns. 
+Serialize takes: 2113ns. 
+Serialize takes: 2140ns. 
+Serialize takes: 2150ns. 
+Serialize takes: 2155ns. 
+Serialize takes: 1802ns. 
+Serialize takes: 2163ns. 
+Serialize takes: 2034ns. 
+Serialize takes: 2184ns. 
+Serialize takes: 1995ns. 
+Serialize takes: 2088ns. 
+Serialize takes: 2097ns. 
+Serialize takes: 2096ns. 
+Serialize takes: 1854ns. 
+Serialize takes: 2160ns. 
+Serialize takes: 2105ns. 
+Serialize takes: 2187ns. 
+Serialize takes: 2106ns. 
+Serialize takes: 2061ns. 
+Serialize takes: 2104ns. 
+Serialize takes: 2118ns. 
+Serialize takes: 2111ns. 
+Serialize takes: 2070ns. 
+Serialize takes: 2093ns. 
+Serialize takes: 2133ns. 
+Serialize takes: 2026ns. 
+Serialize takes: 2087ns. 
+Serialize takes: 2123ns. 
+Serialize takes: 1869ns. 
+Serialize takes: 2082ns. 
+Serialize takes: 2187ns. 
+Serialize takes: 2088ns. 
+Serialize takes: 2198ns. 
+Serialize takes: 2130ns. 
+Serialize takes: 2145ns. 
+Serialize takes: 2103ns. 
+Serialize takes: 2170ns. 
+Serialize takes: 1875ns. 
+Serialize takes: 2065ns. 
+Serialize takes: 2008ns. 
+Serialize takes: 2169ns. 
+Serialize takes: 2163ns. 
+Serialize takes: 1819ns. 
+Serialize takes: 2128ns. 
+Serialize takes: 2169ns. 
+Serialize takes: 2142ns. 
+Serialize takes: 2219ns. 
+Serialize takes: 5657ns. 
+Serialize takes: 2394ns. 
+Serialize takes: 2408ns. 
+Serialize takes: 1906ns. 
+Serialize takes: 1869ns. 
+Serialize takes: 1872ns. 
+Serialize takes: 1730ns. 
+Serialize takes: 1975ns. 
+Serialize takes: 1844ns. 
+Serialize takes: 1892ns. 
+Serialize takes: 1794ns. 
+Serialize takes: 1884ns. 
+Serialize takes: 1739ns. 
+Serialize takes: 1769ns. 
+Serialize takes: 1759ns. 
+Serialize takes: 1834ns. 
+Serialize takes: 2294ns. 
+Serialize takes: 2242ns. 
+Serialize takes: 2003ns. 
+Serialize takes: 2206ns. 
+Serialize takes: 2146ns. 
+Serialize takes: 2179ns. 
+Serialize takes: 2037ns. 
+Serialize takes: 2116ns. 
+Serialize takes: 2024ns. 
+Serialize takes: 2198ns. 
+Serialize takes: 2111ns. 
+Serialize takes: 2097ns. 
+Serialize takes: 2078ns. 
+Serialize takes: 2130ns. 
+Serialize takes: 2130ns. 
+Serialize takes: 2179ns. 
+Serialize takes: 2135ns. 
+Serialize takes: 2172ns. 
+Serialize takes: 2089ns. 
+Serialize takes: 2127ns. 
+Serialize takes: 2028ns. 
+Serialize takes: 2131ns. 
+Serialize takes: 2104ns. 
+Serialize takes: 2095ns. 
+Serialize takes: 1973ns. 
+Serialize takes: 2171ns. 
+Serialize takes: 2060ns. 
+Serialize takes: 2122ns. 
+Serialize takes: 2116ns. 
+Serialize takes: 2151ns. 
+Serialize takes: 2119ns. 
+Serialize takes: 2165ns. 
+Serialize takes: 1901ns. 
+Serialize takes: 1940ns. 
+Serialize takes: 1786ns. 
+Serialize takes: 2124ns. 
+Serialize takes: 2051ns. 
+Serialize takes: 2175ns. 
+Serialize takes: 2056ns. 
+Serialize takes: 2054ns. 
+Serialize takes: 2082ns. 
+Serialize takes: 2079ns. 
+Serialize takes: 2004ns. 
+Serialize takes: 2063ns. 
+Serialize takes: 1778ns. 
+Serialize takes: 2007ns. 
+Serialize takes: 2050ns. 
+Serialize takes: 2114ns. 
+Serialize takes: 2044ns. 
+Serialize takes: 2185ns. 
+Serialize takes: 2060ns. 
+Serialize takes: 2144ns. 
+Serialize takes: 2067ns. 
+Serialize takes: 1925ns. 
+Serialize takes: 1768ns. 
+Serialize takes: 1873ns. 
+Serialize takes: 1797ns. 
+Serialize takes: 1818ns. 
+Serialize takes: 1782ns. 
+Serialize takes: 1839ns. 
+Serialize takes: 1715ns. 
+Serialize takes: 1738ns. 
+Serialize takes: 1730ns. 
+Serialize takes: 1847ns. 
+Serialize takes: 1752ns. 
+Serialize takes: 1772ns. 
+Serialize takes: 1753ns. 
+Serialize takes: 1726ns. 
+Serialize takes: 1811ns. 
+Serialize takes: 5790ns. 
+Serialize takes: 2263ns. 
+Serialize takes: 3373ns. 
+Serialize takes: 2352ns. 
+Serialize takes: 2198ns. 
+Serialize takes: 2043ns. 
+Serialize takes: 1888ns. 
+Serialize takes: 1989ns. 
+Serialize takes: 2592ns. 
+Serialize takes: 1870ns. 
+Serialize takes: 1828ns. 
+Serialize takes: 2126ns. 
+Serialize takes: 1877ns. 
+Serialize takes: 2034ns. 
+Serialize takes: 2148ns. 
+Serialize takes: 2089ns. 
+Serialize takes: 1871ns. 
+Serialize takes: 2005ns. 
+Serialize takes: 2206ns. 
+Serialize takes: 1790ns. 
+Serialize takes: 2083ns. 
+Serialize takes: 1797ns. 
+Serialize takes: 1853ns. 
+Serialize takes: 1778ns. 
+Serialize takes: 1741ns. 
+Serialize takes: 2074ns. 
+Serialize takes: 1936ns. 
+Serialize takes: 1825ns. 
+Serialize takes: 1821ns. 
+Serialize takes: 2109ns. 
+Serialize takes: 2136ns. 
+Serialize takes: 1871ns. 
+Serialize takes: 1808ns. 
+Serialize takes: 1727ns. 
+Serialize takes: 2099ns. 
+Serialize takes: 1851ns. 
+Serialize takes: 2086ns. 
+Serialize takes: 1799ns. 
+Serialize takes: 2136ns. 
+Serialize takes: 1910ns. 
+Serialize takes: 1805ns. 
+Serialize takes: 3060ns. 
+Serialize takes: 2310ns. 
+Serialize takes: 2015ns. 
+Serialize takes: 2033ns. 
+Serialize takes: 1824ns. 
+Serialize takes: 1905ns. 
+Serialize takes: 1965ns. 
+Serialize takes: 1877ns. 
+Serialize takes: 1727ns. 
+Serialize takes: 1801ns. 
+Serialize takes: 1809ns. 
+Serialize takes: 1911ns. 
+Serialize takes: 1847ns. 
+Serialize takes: 1908ns. 
+Serialize takes: 2458ns. 
+Serialize takes: 2230ns. 
+Serialize takes: 2180ns. 
+Serialize takes: 2175ns. 
+Serialize takes: 2076ns. 
+Serialize takes: 2090ns. 
+Serialize takes: 2097ns. 
+Serialize takes: 2011ns. 
+Serialize takes: 2036ns. 
+Serialize takes: 2364ns. 
+Serialize takes: 2197ns. 
+Serialize takes: 2142ns. 
+Serialize takes: 2288ns. 
+Serialize takes: 2120ns. 
+Serialize takes: 2079ns. 
+Serialize takes: 2098ns. 
+Serialize takes: 1994ns. 
+Serialize takes: 1836ns. 
+Serialize takes: 1808ns. 
+Serialize takes: 1838ns. 
+Serialize takes: 1742ns. 
+Serialize takes: 1814ns. 
+Serialize takes: 2072ns. 
+Serialize takes: 2097ns. 
+Serialize takes: 1971ns. 
+Serialize takes: 2292ns. 
+Serialize takes: 2085ns. 
+Serialize takes: 2056ns. 
+Serialize takes: 1865ns. 
+Serialize takes: 2097ns. 
+Serialize takes: 2069ns. 
+Serialize takes: 13628ns. 
+Serialize takes: 2108ns. 
+Serialize takes: 2508ns. 
+Serialize takes: 1966ns. 
+Serialize takes: 1871ns. 
+Serialize takes: 2257ns. 
+Serialize takes: 2349ns. 
+Serialize takes: 1908ns. 
+Serialize takes: 1776ns. 
+Serialize takes: 2197ns. 
+Serialize takes: 1927ns. 
+Serialize takes: 2164ns. 
+Serialize takes: 1856ns. 
+Serialize takes: 1850ns. 
+Serialize takes: 2126ns. 
+Serialize takes: 1921ns. 
+Serialize takes: 2068ns. 
+Serialize takes: 1876ns. 
+Serialize takes: 2048ns. 
+Serialize takes: 2203ns. 
+Serialize takes: 2047ns. 
+Serialize takes: 2054ns. 
+Serialize takes: 2075ns. 
+Serialize takes: 2189ns. 
+Serialize takes: 2133ns. 
+Serialize takes: 2217ns. 
+Serialize takes: 2093ns. 
+Serialize takes: 2162ns. 
+Serialize takes: 2138ns. 
+Serialize takes: 2100ns. 
+Serialize takes: 2153ns. 
+Serialize takes: 2158ns. 
+Serialize takes: 2182ns. 
+Serialize takes: 1857ns. 
+Serialize takes: 2084ns. 
+Serialize takes: 2100ns. 
+Serialize takes: 2106ns. 
+Serialize takes: 2128ns. 
+Serialize takes: 2023ns. 
+Serialize takes: 2135ns. 
+Serialize takes: 2083ns. 
+Serialize takes: 2104ns. 
+Serialize takes: 2026ns. 
+Serialize takes: 2088ns. 
+Serialize takes: 2180ns. 
+Serialize takes: 2048ns. 
+Serialize takes: 2063ns. 
+Serialize takes: 2061ns. 
+Serialize takes: 2107ns. 
+Serialize takes: 2124ns. 
+Serialize takes: 2126ns. 
+Serialize takes: 2142ns. 
+Serialize takes: 2178ns. 
+Serialize takes: 2060ns. 
+Serialize takes: 2133ns. 
+Serialize takes: 1998ns. 
+Serialize takes: 1855ns. 
+Serialize takes: 1760ns. 
+Serialize takes: 2110ns. 
+Serialize takes: 2050ns. 
+Serialize takes: 2065ns. 
+Serialize takes: 2048ns. 
+Serialize takes: 2144ns. 
+Serialize takes: 2084ns. 
+Serialize takes: 2113ns. 
+Serialize takes: 2081ns. 
+Serialize takes: 1839ns. 
+Serialize takes: 1722ns. 
+Serialize takes: 2117ns. 
+Serialize takes: 2047ns. 
+Serialize takes: 2136ns. 
+Serialize takes: 2071ns. 
+Serialize takes: 1883ns. 
+Serialize takes: 1789ns. 
+Serialize takes: 1862ns. 
+Serialize takes: 1749ns. 
+Serialize takes: 1725ns. 
+Serialize takes: 2396ns. 
+Serialize takes: 1864ns. 
+Serialize takes: 1743ns. 
+Serialize takes: 1743ns. 
+Serialize takes: 1680ns. 
+Serialize takes: 1869ns. 
+Serialize takes: 1775ns. 
+Serialize takes: 1743ns. 
+Serialize takes: 5862ns. 
+Serialize takes: 2260ns. 
+Serialize takes: 1831ns. 
+Serialize takes: 1915ns. 
+Serialize takes: 1918ns. 
+Serialize takes: 1869ns. 
+Serialize takes: 1929ns. 
+Serialize takes: 1801ns. 
+Serialize takes: 1823ns. 
+Serialize takes: 1760ns. 
+Serialize takes: 1860ns. 
+Serialize takes: 1733ns. 
+Serialize takes: 1816ns. 
+Serialize takes: 1750ns. 
+Serialize takes: 1892ns. 
+Serialize takes: 1636ns. 
+Serialize takes: 1549ns. 
+Serialize takes: 1526ns. 
+Serialize takes: 1517ns. 
+Serialize takes: 1514ns. 
+Serialize takes: 1522ns. 
+Serialize takes: 1537ns. 
+Serialize takes: 1547ns. 
+Serialize takes: 1507ns. 
+Serialize takes: 1527ns. 
+Serialize takes: 1620ns. 
+Serialize takes: 1454ns. 
+Serialize takes: 1524ns. 
+Serialize takes: 1523ns. 
+Serialize takes: 1429ns. 
+Serialize takes: 1523ns. 
+Serialize takes: 1278ns. 
+Serialize takes: 1318ns. 
+Serialize takes: 1392ns. 
+Serialize takes: 1555ns. 
+Serialize takes: 1376ns. 
+Serialize takes: 1298ns. 
+Serialize takes: 1321ns. 
+Serialize takes: 1254ns. 
+Serialize takes: 1340ns. 
+Serialize takes: 1338ns. 
+Serialize takes: 1333ns. 
+Serialize takes: 1313ns. 
+Serialize takes: 1340ns. 
+Serialize takes: 1351ns. 
+Serialize takes: 1399ns. 
+Serialize takes: 1386ns. 
+Serialize takes: 1328ns. 
+Serialize takes: 1290ns. 
+Serialize takes: 1339ns. 
+Serialize takes: 1351ns. 
+Serialize takes: 1399ns. 
+Serialize takes: 1483ns. 
+Serialize takes: 1317ns. 
+Serialize takes: 1368ns. 
+Serialize takes: 1268ns. 
+Serialize takes: 1403ns. 
+Serialize takes: 1350ns. 
+Serialize takes: 1267ns. 
+Serialize takes: 1260ns. 
+Serialize takes: 1352ns. 
+Serialize takes: 1322ns. 
+Serialize takes: 1421ns. 
+Serialize takes: 1292ns. 
+Serialize takes: 1358ns. 
+Serialize takes: 1422ns. 
+Serialize takes: 10955ns. 
+Serialize takes: 1368ns. 
+Serialize takes: 1343ns. 
+Serialize takes: 1296ns. 
+Serialize takes: 1293ns. 
+Serialize takes: 1313ns. 
+Serialize takes: 1335ns. 
+Serialize takes: 1347ns. 
+Serialize takes: 1280ns. 
+Serialize takes: 1275ns. 
+Serialize takes: 1278ns. 
+Serialize takes: 1315ns. 
+Serialize takes: 1289ns. 
+Serialize takes: 1316ns. 
+Serialize takes: 1245ns. 
+Serialize takes: 1267ns. 
+Serialize takes: 1284ns. 
+Serialize takes: 1290ns. 
+Serialize takes: 1335ns. 
+Serialize takes: 15031ns. 
+Serialize takes: 1943ns. 
+Serialize takes: 1889ns. 
+Serialize takes: 1822ns. 
+Serialize takes: 2186ns. 
+Serialize takes: 2065ns. 
+Serialize takes: 1938ns. 
+Serialize takes: 1974ns. 
+Serialize takes: 1992ns. 
+Serialize takes: 1996ns. 
+Serialize takes: 2150ns. 
+Serialize takes: 1920ns. 
+Serialize takes: 2138ns. 
+Serialize takes: 2110ns. 
+Serialize takes: 2065ns. 
+Serialize takes: 2207ns. 
+Serialize takes: 2138ns. 
+Serialize takes: 2010ns. 
+Serialize takes: 2041ns. 
+Serialize takes: 1853ns. 
+Serialize takes: 1795ns. 
+Serialize takes: 1644ns. 
+Serialize takes: 1843ns. 
+Serialize takes: 1826ns. 
+Serialize takes: 2166ns. 
+Serialize takes: 2053ns. 
+Serialize takes: 2041ns. 
+Serialize takes: 2066ns. 
+Serialize takes: 2335ns. 
+Serialize takes: 1850ns. 
+Serialize takes: 2107ns. 
+Serialize takes: 1816ns. 
+Serialize takes: 1821ns. 
+Serialize takes: 1766ns. 
+Serialize takes: 1809ns. 
+Serialize takes: 1871ns. 
+Serialize takes: 1811ns. 
+Serialize takes: 1737ns. 
+Serialize takes: 1841ns. 
+Serialize takes: 1734ns. 
+Serialize takes: 1763ns. 
+Serialize takes: 2081ns. 
+Serialize takes: 2144ns. 
+Serialize takes: 2062ns. 
+Serialize takes: 2152ns. 
+Serialize takes: 2098ns. 
+Serialize takes: 2136ns. 
+Serialize takes: 2002ns. 
+Serialize takes: 2064ns. 
+Serialize takes: 1993ns. 
+Serialize takes: 2099ns. 
+Serialize takes: 2087ns. 
+Serialize takes: 2321ns. 
+Serialize takes: 2054ns. 
+Serialize takes: 1879ns. 
+Serialize takes: 1845ns. 
+Serialize takes: 1809ns. 
+Serialize takes: 1920ns. 
+Serialize takes: 2139ns. 
+Serialize takes: 2149ns. 
+Serialize takes: 2155ns. 
+Serialize takes: 1774ns. 
+Serialize takes: 1753ns. 
+Serialize takes: 1741ns. 
+Serialize takes: 2179ns. 
+Serialize takes: 2119ns. 
+Serialize takes: 2085ns. 
+Serialize takes: 2143ns. 
+Serialize takes: 1834ns. 
+Serialize takes: 1780ns. 
+Serialize takes: 2147ns. 
+Serialize takes: 2103ns. 
+Serialize takes: 2139ns. 
+Serialize takes: 2036ns. 
+Serialize takes: 2099ns. 
+Serialize takes: 1813ns. 
+Serialize takes: 2140ns. 
+Serialize takes: 2058ns. 
+Serialize takes: 1956ns. 
+Serialize takes: 2070ns. 
+Serialize takes: 2059ns. 
+Serialize takes: 2251ns. 
+Serialize takes: 1870ns. 
+Serialize takes: 1752ns. 
+Serialize takes: 2050ns. 
+Serialize takes: 2025ns. 
+Serialize takes: 6174ns. 
+Serialize takes: 2615ns. 
+Serialize takes: 2036ns. 
+Serialize takes: 2152ns. 
+Serialize takes: 1806ns. 
+Serialize takes: 1880ns. 
+Serialize takes: 1855ns. 
+Serialize takes: 1871ns. 
+Serialize takes: 1887ns. 
+Serialize takes: 1837ns. 
+Serialize takes: 1829ns. 
+Serialize takes: 1833ns. 
+Serialize takes: 1769ns. 
+Serialize takes: 1826ns. 
+Serialize takes: 1735ns. 
+Serialize takes: 1847ns. 
+Serialize takes: 1774ns. 
+Serialize takes: 1804ns. 
+Serialize takes: 1822ns. 
+Serialize takes: 1826ns. 
+Serialize takes: 1904ns. 
+Serialize takes: 1875ns. 
+Serialize takes: 1787ns. 
+Serialize takes: 1733ns. 
+Serialize takes: 1818ns. 
+Serialize takes: 1834ns. 
+Serialize takes: 1881ns. 
+Serialize takes: 1865ns. 
+Serialize takes: 1823ns. 
+Serialize takes: 1850ns. 
+Serialize takes: 1807ns. 
+Serialize takes: 1894ns. 
+Serialize takes: 1771ns. 
+Serialize takes: 1760ns. 
+Serialize takes: 1865ns. 
+Serialize takes: 1734ns. 
+Serialize takes: 1788ns. 
+Serialize takes: 1726ns. 
+Serialize takes: 1753ns. 
+Serialize takes: 1839ns. 
+Serialize takes: 1817ns. 
+Serialize takes: 1819ns. 
+Serialize takes: 1850ns. 
+Serialize takes: 1799ns. 
+Serialize takes: 1853ns. 
+Serialize takes: 1884ns. 
+Serialize takes: 1808ns. 
+Serialize takes: 1804ns. 
+Serialize takes: 1821ns. 
+Serialize takes: 1791ns. 
+Serialize takes: 1866ns. 
+Serialize takes: 1851ns. 
+Serialize takes: 1822ns. 
+Serialize takes: 1806ns. 
+Serialize takes: 1850ns. 
+Serialize takes: 1746ns. 
+Serialize takes: 1908ns. 
+Serialize takes: 1679ns. 
+Serialize takes: 1849ns. 
+Serialize takes: 1742ns. 
+Serialize takes: 1848ns. 
+Serialize takes: 1802ns. 
+Serialize takes: 1802ns. 
+Serialize takes: 1741ns. 
+Serialize takes: 1795ns. 
+Serialize takes: 1782ns. 
+Serialize takes: 1939ns. 
+Serialize takes: 1772ns. 
+Serialize takes: 1662ns. 
+Serialize takes: 1802ns. 
+Serialize takes: 1843ns. 
+Serialize takes: 1846ns. 
+Serialize takes: 1788ns. 
+Serialize takes: 1766ns. 
+Serialize takes: 1927ns. 
+Serialize takes: 1795ns. 
+Serialize takes: 1802ns. 
+Serialize takes: 1708ns. 
+Serialize takes: 1721ns. 
+Serialize takes: 1663ns. 
+Serialize takes: 1763ns. 
+Serialize takes: 1789ns. 
+Serialize takes: 1785ns. 
+Serialize takes: 1715ns. 
+Serialize takes: 1745ns. 
+Serialize takes: 6483ns. 
+Serialize takes: 2219ns. 
+Serialize takes: 1901ns. 
+Serialize takes: 1852ns. 
+Serialize takes: 2696ns. 
+Serialize takes: 1839ns. 
+Serialize takes: 1618ns. 
+Serialize takes: 1529ns. 
+Serialize takes: 1652ns. 
+Serialize takes: 1614ns. 
+Serialize takes: 1928ns. 
+Serialize takes: 1539ns. 
+Serialize takes: 1577ns. 
+Serialize takes: 1484ns. 
+Serialize takes: 1498ns. 
+Serialize takes: 1640ns. 
+Serialize takes: 1558ns. 
+Serialize takes: 1551ns. 
+Serialize takes: 1531ns. 
+Serialize takes: 1680ns. 
+Serialize takes: 1609ns. 
+Serialize takes: 1578ns. 
+Serialize takes: 1564ns. 
+Serialize takes: 1613ns. 
+Serialize takes: 1573ns. 
+Serialize takes: 1693ns. 
+Serialize takes: 1625ns. 
+Serialize takes: 1494ns. 
+Serialize takes: 1572ns. 
+Serialize takes: 1556ns. 
+Serialize takes: 1500ns. 
+Serialize takes: 1529ns. 
+Serialize takes: 1411ns. 
+Serialize takes: 1445ns. 
+Serialize takes: 1497ns. 
+Serialize takes: 1414ns. 
+Serialize takes: 1616ns. 
+Serialize takes: 1545ns. 
+Serialize takes: 1484ns. 
+Serialize takes: 1525ns. 
+Serialize takes: 1438ns. 
+Serialize takes: 1465ns. 
+Serialize takes: 1479ns. 
+Serialize takes: 1589ns. 
+Serialize takes: 1490ns. 
+Serialize takes: 1428ns. 
+Serialize takes: 1412ns. 
+Serialize takes: 1321ns. 
+Serialize takes: 1292ns. 
+Serialize takes: 1385ns. 
+Serialize takes: 1304ns. 
+Serialize takes: 1338ns. 
+Serialize takes: 1352ns. 
+Serialize takes: 1229ns. 
+Serialize takes: 1265ns. 
+Serialize takes: 1272ns. 
+Serialize takes: 1265ns. 
+Serialize takes: 1270ns. 
+Serialize takes: 1363ns. 
+Serialize takes: 1431ns. 
+Serialize takes: 1358ns. 
+Serialize takes: 1294ns. 
+Serialize takes: 1205ns. 
+Serialize takes: 1380ns. 
+Serialize takes: 1359ns. 
+Serialize takes: 1326ns. 
+Serialize takes: 1298ns. 
+Serialize takes: 1321ns. 
+Serialize takes: 1333ns. 
+Serialize takes: 1276ns. 
+Serialize takes: 1246ns. 
+Serialize takes: 1241ns. 
+Serialize takes: 1240ns. 
+Serialize takes: 1286ns. 
+Serialize takes: 1322ns. 
+Serialize takes: 1272ns. 
+Serialize takes: 1269ns. 
+Serialize takes: 1292ns. 
+Serialize takes: 1235ns. 
+Serialize takes: 1290ns. 
+Serialize takes: 1335ns. 
+Serialize takes: 1201ns. 
+Serialize takes: 1449ns. 
+Serialize takes: 1322ns. 
+Serialize takes: 1288ns. 
+Serialize takes: 6225ns. 
+Serialize takes: 2364ns. 
+Serialize takes: 2026ns. 
+Serialize takes: 2288ns. 
+Serialize takes: 1964ns. 
+Serialize takes: 2109ns. 
+Serialize takes: 2083ns. 
+Serialize takes: 2284ns. 
+Serialize takes: 2175ns. 
+Serialize takes: 1844ns. 
+Serialize takes: 1830ns. 
+Serialize takes: 2061ns. 
+Serialize takes: 1773ns. 
+Serialize takes: 2080ns. 
+Serialize takes: 2187ns. 
+Serialize takes: 2178ns. 
+Serialize takes: 1943ns. 
+Serialize takes: 2078ns. 
+Serialize takes: 1871ns. 
+Serialize takes: 1845ns. 
+Serialize takes: 2105ns. 
+Serialize takes: 1927ns. 
+Serialize takes: 2108ns. 
+Serialize takes: 1911ns. 
+Serialize takes: 2345ns. 
+Serialize takes: 1979ns. 
+Serialize takes: 1903ns. 
+Serialize takes: 1851ns. 
+Serialize takes: 1800ns. 
+Serialize takes: 1870ns. 
+Serialize takes: 1837ns. 
+Serialize takes: 1880ns. 
+Serialize takes: 1869ns. 
+Serialize takes: 1863ns. 
+Serialize takes: 1723ns. 
+Serialize takes: 1838ns. 
+Serialize takes: 1717ns. 
+Serialize takes: 1809ns. 
+Serialize takes: 1767ns. 
+Serialize takes: 1829ns. 
+Serialize takes: 1808ns. 
+Serialize takes: 1823ns. 
+Serialize takes: 1746ns. 
+Serialize takes: 1946ns. 
+Serialize takes: 1851ns. 
+Serialize takes: 1946ns. 
+Serialize takes: 1814ns. 
+Serialize takes: 1841ns. 
+Serialize takes: 1772ns. 
+Serialize takes: 1852ns. 
+Serialize takes: 1777ns. 
+Serialize takes: 1864ns. 
+Serialize takes: 1826ns. 
+Serialize takes: 1850ns. 
+Serialize takes: 1885ns. 
+Serialize takes: 1807ns. 
+Serialize takes: 1746ns. 
+Serialize takes: 1781ns. 
+Serialize takes: 1746ns. 
+Serialize takes: 1823ns. 
+Serialize takes: 1864ns. 
+Serialize takes: 1816ns. 
+Serialize takes: 1765ns. 
+Serialize takes: 1830ns. 
+Serialize takes: 1804ns. 
+Serialize takes: 1797ns. 
+Serialize takes: 1771ns. 
+Serialize takes: 1852ns. 
+Serialize takes: 1887ns. 
+Serialize takes: 1935ns. 
+Serialize takes: 1750ns. 
+Serialize takes: 1801ns. 
+Serialize takes: 1714ns. 
+Serialize takes: 1807ns. 
+Serialize takes: 1795ns. 
+Serialize takes: 1899ns. 
+Serialize takes: 1778ns. 
+Serialize takes: 1813ns. 
+Serialize takes: 1827ns. 
+Serialize takes: 1866ns. 
+Serialize takes: 1803ns. 
+Serialize takes: 1898ns. 
+Serialize takes: 1851ns. 
+Serialize takes: 1930ns. 
+Serialize takes: 1823ns. 
+Serialize takes: 1884ns. 
+Serialize takes: 14370ns. 
+Serialize takes: 2280ns. 
+Serialize takes: 1993ns. 
+Serialize takes: 1957ns. 
+Serialize takes: 1992ns. 
+Serialize takes: 1967ns. 
+Serialize takes: 1840ns. 
+Serialize takes: 1896ns. 
+Serialize takes: 1925ns. 
+Serialize takes: 1956ns. 
+Serialize takes: 2256ns. 
+Serialize takes: 2050ns. 
+Serialize takes: 2113ns. 
+Serialize takes: 2072ns. 
+Serialize takes: 2143ns. 
+Serialize takes: 2070ns. 
+Serialize takes: 2084ns. 
+Serialize takes: 2031ns. 
+Serialize takes: 2114ns. 
+Serialize takes: 2080ns. 
+Serialize takes: 1885ns. 
+Serialize takes: 1838ns. 
+Serialize takes: 1805ns. 
+Serialize takes: 1766ns. 
+Serialize takes: 1745ns. 
+Serialize takes: 1739ns. 
+Serialize takes: 1778ns. 
+Serialize takes: 1925ns. 
+Serialize takes: 1918ns. 
+Serialize takes: 1827ns. 
+Serialize takes: 1776ns. 
+Serialize takes: 1798ns. 
+Serialize takes: 1788ns. 
+Serialize takes: 1692ns. 
+Serialize takes: 1709ns. 
+Serialize takes: 1751ns. 
+Serialize takes: 2123ns. 
+Serialize takes: 2027ns. 
+Serialize takes: 1783ns. 
+Serialize takes: 1801ns. 
+Serialize takes: 1799ns. 
+Serialize takes: 1798ns. 
+Serialize takes: 1738ns. 
+Serialize takes: 1783ns. 
+Serialize takes: 1747ns. 
+Serialize takes: 1700ns. 
+Serialize takes: 1757ns. 
+Serialize takes: 1785ns. 
+Serialize takes: 1754ns. 
+Serialize takes: 1804ns. 
+Serialize takes: 1841ns. 
+Serialize takes: 1784ns. 
+Serialize takes: 1809ns. 
+Serialize takes: 1784ns. 
+Serialize takes: 1823ns. 
+Serialize takes: 1745ns. 
+Serialize takes: 1685ns. 
+Serialize takes: 1751ns. 
+Serialize takes: 1747ns. 
+Serialize takes: 1795ns. 
+Serialize takes: 1868ns. 
+Serialize takes: 1787ns. 
+Serialize takes: 1829ns. 
+Serialize takes: 1770ns. 
+Serialize takes: 1834ns. 
+Serialize takes: 1804ns. 
+Serialize takes: 1891ns. 
+Serialize takes: 1706ns. 
+Serialize takes: 1855ns. 
+Serialize takes: 2009ns. 
+Serialize takes: 2076ns. 
+Serialize takes: 1741ns. 
+Serialize takes: 1770ns. 
+Serialize takes: 1829ns. 
+Serialize takes: 1798ns. 
+Serialize takes: 1841ns. 
+Serialize takes: 1786ns. 
+Serialize takes: 1803ns. 
+Serialize takes: 1759ns. 
+Serialize takes: 1888ns. 
+Serialize takes: 1807ns. 
+Serialize takes: 1797ns. 
+Serialize takes: 1798ns. 
+Serialize takes: 1781ns. 
+Serialize takes: 1771ns. 
+Serialize takes: 7738ns. 
+Serialize takes: 3178ns. 
+Serialize takes: 2984ns. 
+Serialize takes: 2717ns. 
+Serialize takes: 2636ns. 
+Serialize takes: 2635ns. 
+Serialize takes: 2766ns. 
+Serialize takes: 2715ns. 
+Serialize takes: 2877ns. 
+Serialize takes: 2749ns. 
+Serialize takes: 3947ns. 
+Serialize takes: 2997ns. 
+Serialize takes: 2740ns. 
+Serialize takes: 2560ns. 
+Serialize takes: 2558ns. 
+Serialize takes: 2597ns. 
+Serialize takes: 2512ns. 
+Serialize takes: 2660ns. 
+Serialize takes: 3007ns. 
+Serialize takes: 2558ns. 
+Serialize takes: 2596ns. 
+Serialize takes: 2550ns. 
+Serialize takes: 2878ns. 
+Serialize takes: 2919ns. 
+Serialize takes: 2607ns. 
+Serialize takes: 2792ns. 
+Serialize takes: 2374ns. 
+Serialize takes: 2548ns. 
+Serialize takes: 2694ns. 
+Serialize takes: 2521ns. 
+Serialize takes: 2618ns. 
+Serialize takes: 2733ns. 
+Serialize takes: 2534ns. 
+Serialize takes: 2539ns. 
+Serialize takes: 2618ns. 
+Serialize takes: 2681ns. 
+Serialize takes: 2534ns. 
+Serialize takes: 2611ns. 
+Serialize takes: 2370ns. 
+Serialize takes: 2766ns. 
+Serialize takes: 2845ns. 
+Serialize takes: 2563ns. 
+Serialize takes: 2527ns. 
+Serialize takes: 2452ns. 
+Serialize takes: 2444ns. 
+Serialize takes: 2409ns. 
+Serialize takes: 2532ns. 
+Serialize takes: 2429ns. 
+Serialize takes: 2386ns. 
+Serialize takes: 2951ns. 
+Serialize takes: 2786ns. 
+Serialize takes: 3041ns. 
+Serialize takes: 2854ns. 
+Serialize takes: 2856ns. 
+Serialize takes: 11124ns. 
+Serialize takes: 2490ns. 
+Serialize takes: 2902ns. 
+Serialize takes: 2870ns. 
+Serialize takes: 2762ns. 
+Serialize takes: 2922ns. 
+Serialize takes: 2805ns. 
+Serialize takes: 2465ns. 
+Serialize takes: 2829ns. 
+Serialize takes: 2558ns. 
+Serialize takes: 2495ns. 
+Serialize takes: 2506ns. 
+Serialize takes: 2436ns. 
+Serialize takes: 2547ns. 
+Serialize takes: 2439ns. 
+Serialize takes: 2564ns. 
+Serialize takes: 2496ns. 
+Serialize takes: 2621ns. 
+Serialize takes: 2473ns. 
+Serialize takes: 2642ns. 
+Serialize takes: 2447ns. 
+Serialize takes: 2553ns. 
+Serialize takes: 2580ns. 
+Serialize takes: 2543ns. 
+Serialize takes: 2505ns. 
+Serialize takes: 2619ns. 
+Serialize takes: 2630ns. 
+Serialize takes: 2617ns. 
+Serialize takes: 2489ns. 
+Serialize takes: 2497ns. 
+Serialize takes: 2298ns. 
+Serialize takes: 7220ns. 
+Serialize takes: 2471ns. 
+Serialize takes: 2279ns. 
+Serialize takes: 2509ns. 
+Serialize takes: 2518ns. 
+Serialize takes: 2162ns. 
+Serialize takes: 2229ns. 
+Serialize takes: 2207ns. 
+Serialize takes: 2127ns. 
+Serialize takes: 2148ns. 
+Serialize takes: 2306ns. 
+Serialize takes: 2219ns. 
+Serialize takes: 2042ns. 
+Serialize takes: 2105ns. 
+Serialize takes: 2122ns. 
+Serialize takes: 2147ns. 
+Serialize takes: 2209ns. 
+Serialize takes: 2055ns. 
+Serialize takes: 2189ns. 
+Serialize takes: 2224ns. 
+Serialize takes: 2175ns. 
+Serialize takes: 2228ns. 
+Serialize takes: 2051ns. 
+Serialize takes: 2011ns. 
+Serialize takes: 2138ns. 
+Serialize takes: 2281ns. 
+Serialize takes: 2155ns. 
+Serialize takes: 2242ns. 
+Serialize takes: 2227ns. 
+Serialize takes: 2245ns. 
+Serialize takes: 2190ns. 
+Serialize takes: 2207ns. 
+Serialize takes: 2213ns. 
+Serialize takes: 2136ns. 
+Serialize takes: 2162ns. 
+Serialize takes: 2155ns. 
+Serialize takes: 2138ns. 
+Serialize takes: 2182ns. 
+Serialize takes: 2269ns. 
+Serialize takes: 2140ns. 
+Serialize takes: 2192ns. 
+Serialize takes: 2143ns. 
+Serialize takes: 2205ns. 
+Serialize takes: 2099ns. 
+Serialize takes: 2117ns. 
+Serialize takes: 2107ns. 
+Serialize takes: 2355ns. 
+Serialize takes: 2114ns. 
+Serialize takes: 2498ns. 
+Serialize takes: 2236ns. 
+Serialize takes: 2244ns. 
+Serialize takes: 2001ns. 
+Serialize takes: 2175ns. 
+Serialize takes: 2187ns. 
+Serialize takes: 2193ns. 
+Serialize takes: 2203ns. 
+Serialize takes: 2177ns. 
+Serialize takes: 2134ns. 
+Serialize takes: 2178ns. 
+Serialize takes: 2199ns. 
+Serialize takes: 2199ns. 
+Serialize takes: 2180ns. 
+Serialize takes: 2236ns. 
+Serialize takes: 2136ns. 
+Serialize takes: 2177ns. 
+Serialize takes: 2081ns. 
+Serialize takes: 2233ns. 
+Serialize takes: 2260ns. 
+Serialize takes: 2065ns. 
+Serialize takes: 2507ns. 
+Serialize takes: 2147ns. 
+Serialize takes: 2203ns. 
+Serialize takes: 2151ns. 
+Serialize takes: 2060ns. 
+Serialize takes: 2075ns. 
+Serialize takes: 2167ns. 
+Serialize takes: 2063ns. 
+Serialize takes: 2231ns. 
+Serialize takes: 2112ns. 
+Serialize takes: 2130ns. 
+Serialize takes: 2053ns. 
+Serialize takes: 2245ns. 
+Serialize takes: 2044ns. 
+Serialize takes: 2067ns. 
+Serialize takes: 2091ns. 
+Serialize takes: 2025ns. 
+Serialize takes: 6776ns. 
+Serialize takes: 2707ns. 
+Serialize takes: 2523ns. 
+Serialize takes: 2323ns. 
+Serialize takes: 2735ns. 
+Serialize takes: 2342ns. 
+Serialize takes: 2405ns. 
+Serialize takes: 2255ns. 
+Serialize takes: 2375ns. 
+Serialize takes: 2269ns. 
+Serialize takes: 2927ns. 
+Serialize takes: 2857ns. 
+Serialize takes: 2451ns. 
+Serialize takes: 2313ns. 
+Serialize takes: 2585ns. 
+Serialize takes: 2435ns. 
+Serialize takes: 2347ns. 
+Serialize takes: 2279ns. 
+Serialize takes: 2488ns. 
+Serialize takes: 2250ns. 
+Serialize takes: 2854ns. 
+Serialize takes: 2775ns. 
+Serialize takes: 2541ns. 
+Serialize takes: 2332ns. 
+Serialize takes: 2475ns. 
+Serialize takes: 8995ns. 
+Serialize takes: 2396ns. 
+Serialize takes: 2297ns. 
+Serialize takes: 2374ns. 
+Serialize takes: 2319ns. 
+Serialize takes: 2184ns. 
+Serialize takes: 2269ns. 
+Serialize takes: 2308ns. 
+Serialize takes: 2754ns. 
+Serialize takes: 2681ns. 
+Serialize takes: 2490ns. 
+Serialize takes: 2351ns. 
+Serialize takes: 2197ns. 
+Serialize takes: 2149ns. 
+Serialize takes: 1959ns. 
+Serialize takes: 2271ns. 
+Serialize takes: 2086ns. 
+Serialize takes: 1834ns. 
+Serialize takes: 1917ns. 
+Serialize takes: 2345ns. 
+Serialize takes: 1934ns. 
+Serialize takes: 2224ns. 
+Serialize takes: 1939ns. 
+Serialize takes: 1957ns. 
+Serialize takes: 1859ns. 
+Serialize takes: 1905ns. 
+Serialize takes: 1918ns. 
+Serialize takes: 1701ns. 
+Serialize takes: 1893ns. 
+Serialize takes: 1831ns. 
+Serialize takes: 1823ns. 
+Serialize takes: 1739ns. 
+Serialize takes: 1717ns. 
+Serialize takes: 1784ns. 
+Serialize takes: 2110ns. 
+Serialize takes: 1847ns. 
+Serialize takes: 1890ns. 
+Serialize takes: 1879ns. 
+Serialize takes: 1901ns. 
+Serialize takes: 1880ns. 
+Serialize takes: 1842ns. 
+Serialize takes: 1739ns. 
+Serialize takes: 1705ns. 
+Serialize takes: 1776ns. 
+Serialize takes: 1845ns. 
+Serialize takes: 2017ns. 
+Serialize takes: 1810ns. 
+Serialize takes: 2020ns. 
+Serialize takes: 2113ns. 
+Serialize takes: 1813ns. 
+Serialize takes: 1808ns. 
+Serialize takes: 1772ns. 
+Serialize takes: 1908ns. 
+Serialize takes: 1745ns. 
+Serialize takes: 1809ns. 
+Serialize takes: 1915ns. 
+Serialize takes: 1797ns. 
+Serialize takes: 1760ns. 
+Serialize takes: 1878ns. 
+Serialize takes: 1796ns. 
+Serialize takes: 1624ns. 
+Deserialize takes: 6832ns. 
+Measure bandwidth:
+size	duration (ns)	bandwidth (Bps)
+  12288	    52797603	   232737.8
+  12288	       63035	194939319.4
+  12288	       50262	244478930.4
+  12288	       54617	224984894.8
+  12288	       59987	204844382.9
+  12288	       74433	165088065.8
+  12288	       63294	194141624.8
+  12288	       55638	220856249.3
+  12288	       72398	169728445.5
+  12288	       57470	213815903.9
+  12288	       54083	227206331.0
+  12288	       71889	170930184.0
+  12288	       57328	214345520.5
+  12288	       56301	218255448.4
+  12288	       74258	165477120.3
+  12288	       53631	229121217.2
+  12288	       54896	223841445.6
+  12288	       56600	217102473.5
+  12288	       72785	168825994.4
+  12288	       57093	215227786.2
+  12288	       55226	222503893.1
+  12288	       55276	222302626.8
+  12288	       55940	219663925.6
+  12288	       54619	224976656.5
+  12288	       54955	223601128.2
+  12288	       54354	226073518.0
+  12288	       57570	213444502.3
+  12288	       56922	215874354.4
+  12288	       53472	229802513.5
+  12288	       53506	229656487.1
+  12288	       53712	228775692.6
+  12288	       54520	225385179.8
+  12288	       62179	197622991.7
+  12288	       55011	223373507.1
+  12288	       52821	232634747.5
+  12288	       78217	157101397.4
+  12288	       50183	244863798.5
+  12288	       52756	232921373.9
+  12288	       48793	251839403.2
+  12288	       47991	256048009.0
+  12288	       48135	255282019.3
+  12288	       53195	230999154.1
+  12288	       56209	218612677.7
+  12288	       50014	245691206.5
+  12288	       47971	256154760.2
+  12288	       54160	226883308.7
+  12288	       50688	242424242.4
+  12288	       55867	219950954.9
+  12288	       51897	236776692.3
+  12288	       48014	255925355.1
+  12288	       49368	248906174.0
+  12288	       47596	258172955.7
+  12288	       49468	248403008.0
+  12288	       51798	237229236.7
+  12288	       54361	226044406.8
+  12288	       51029	240804248.6
+  12288	       46975	261585950.0
+  12288	       50912	241357636.7
+  12288	       48346	254167873.2
+  12288	       50958	241139762.2
+  12288	       49128	250122129.9
+  12288	       48671	252470670.4
+  12288	       55272	222318714.7
+  12288	       50822	241785053.7
+  12288	       53737	228669259.5
+  12288	       48164	255128311.6
+  12288	       55387	221857114.5
+  12288	       50951	241172891.6
+  12288	       50324	244177728.3
+  12288	       56360	218026969.5
+  12288	       51172	240131321.8
+  12288	       52319	234866874.4
+  12288	       52134	235700310.7
+  12288	      218625	 56205831.9
+  12288	       51560	238324282.4
+  12288	       48334	254230976.1
+  12288	       48464	253549026.1
+  12288	       49081	250361647.1
+  12288	       51617	238061103.9
+  12288	       51101	240464961.5
+  12288	       53804	228384506.7
+  12288	       51769	237362127.9
+  12288	       55634	220872128.6
+  12288	       51605	238116461.6
+  12288	       55215	222548220.6
+  12288	    61824440	   198756.3
+  12288	       69224	177510689.9
+  12288	       53152	231186032.5
+  12288	       52954	232050458.9
+  12288	       52269	235091545.7
+  12288	      103639	118565404.9
+  12288	       53514	229622155.0
+  12288	       51934	236608002.5
+  12288	       53889	228024272.1
+  12288	       66472	184859790.6
+  12288	       61856	198654940.5
+  12288	       94487	130049636.5
+  12288	       80939	151818035.8
+  12288	       62684	196030885.1
+  12288	       60754	202258287.5
+  12288	       64529	190426010.0
+  12288	       64053	191841131.6
+  12288	       63764	192710620.4
+  12288	       59856	205292702.5
+  12288	       62034	198084921.2
+  12288	       60857	201915966.9
+  12288	       63376	193890431.7
+  12288	       76869	159856379.0
+  12288	       52771	232855166.7
+  12288	       59516	206465488.3
+  12288	       61823	198760978.9
+  12288	       59598	206181415.5
+  12288	       59996	204813654.2
+  12288	       59981	204864873.9
+  12288	       67810	181212210.6
+  12288	       63235	194322764.3
+  12288	       63262	194239828.0
+  12288	       62489	196642609.1
+  12288	       62794	195687486.1
+  12288	       59625	206088050.3
+  12288	       61134	201001079.6
+  12288	       60682	202498269.7
+  12288	       61457	199944676.8
+  12288	       61272	200548374.5
+  12288	       61362	200254229.0
+  12288	       58262	210909340.6
+  12288	       64661	190037271.3
+  12288	       58730	209228673.6
+  12288	       63138	194621305.7
+  12288	       62367	197027274.0
+  12288	       62130	197778850.8
+  12288	       66008	186159253.4
+  12288	       63814	192559626.4
+  12288	       59695	205846385.8
+  12288	       62644	196156056.4
+  12288	       63147	194593567.4
+  12288	       53985	227618783.0
+  12288	       65328	188096987.5
+  12288	       61758	198970173.9
+  12288	       58205	211115883.5
+  12288	       74013	166024887.5
+  12288	       60083	204517084.7
+  12288	       62987	195087875.3
+  12288	       61837	198715979.1
+  12288	       54173	226828863.1
+  12288	       66482	184831984.6
+  12288	       63705	192889098.2
+  12288	       58815	208926294.3
+  12288	       62648	196143532.1
+  12288	       59804	205471205.9
+  12288	       63567	193307848.4
+  12288	       62622	196224968.9
+  12288	       60330	203679761.3
+  12288	       58442	210259744.7
+  12288	       62538	196488535.0
+  12288	       63730	192813431.7
+  12288	       59833	205371617.7
+  12288	       70108	175272436.8
+  12288	       62403	196913609.9
+  12288	       60922	201700535.1
+  12288	       61173	200872934.1
+  12288	       61220	200718719.4
+  12288	       61652	199312268.9
+  12288	       60658	202578390.3
+  12288	       67337	182485112.2
+  12288	       59711	205791227.7
+  12288	       62146	197727931.0
+  12288	       57191	214858981.3
+  12288	       62446	196778016.2
+  12288	       66176	185686653.8
+  12288	    53808253	   228366.5
+  12288	       69085	177867844.0
+  12288	       60340	203646006.0
+  12288	       61950	198353510.9
+  12288	       83511	147142292.6
+  12288	       81152	151419558.4
+  12288	      100307	122503913.0
+  12288	       84447	145511385.8
+  12288	       73456	167283816.2
+  12288	       94879	129512326.2
+  12288	       92532	132797302.6
+  12288	       82039	149782420.6
+  12288	       74844	164181497.5
+  12288	       82666	148646360.1
+  12288	       72267	170036116.1
+  12288	       88871	138267826.4
+  12288	      109655	112060553.6
+  12288	       77532	158489397.9
+  12288	       75439	162886570.6
+  12288	       87097	141084078.7
+  12288	       75417	162934086.5
+  12288	       83326	147468977.3
+  12288	       83418	147306336.8
+  12288	       90953	135102745.4
+  12288	       87550	140354083.4
+  12288	       80170	153274292.1
+  12288	       78016	157506152.6
+  12288	       88266	139215553.0
+  12288	      148768	 82598408.3
+  12288	       59136	207792207.8
+  12288	       78349	156836717.8
+  12288	       58930	208518581.4
+  12288	       54462	225625206.6
+  12288	       76211	161236566.9
+  12288	       82275	149352780.3
+  12288	       77464	158628524.2
+  12288	       77814	157915028.1
+  12288	       68331	179830530.8
+  12288	       76966	159654912.6
+  12288	       75952	161786391.4
+  12288	       81650	150496019.6
+  12288	       80747	152179028.3
+  12288	       83142	147795338.1
+  12288	       72085	170465422.8
+  12288	       81677	150446270.1
+  12288	       80595	152466033.9
+  12288	       77870	157801464.0
+  12288	       80668	152328060.7
+  12288	       78654	156228545.3
+  12288	       76917	159756620.8
+  12288	       84997	144569808.3
+  12288	       79079	155388914.9
+  12288	       84960	144632768.4
+  12288	       78024	157490003.1
+  12288	       76330	160985195.9
+  12288	       85189	144243975.2
+  12288	      106645	115223404.8
+  12288	       79444	154674991.2
+  12288	       80391	152852931.3
+  12288	       84860	144803205.3
+  12288	       97978	125415909.7
+  12288	       78580	156375668.1
+  12288	       88622	138656315.6
+  12288	       75883	161933502.9
+  12288	       81609	150571628.1
+  12288	       77478	158599860.6
+  12288	       72079	170479612.6
+  12288	       86553	141970815.6
+  12288	       84339	145697719.9
+  12288	       87616	140248356.5
+  12288	       87162	140978866.9
+  12288	       80145	153322103.7
+  12288	       77069	159441539.4
+  12288	       74385	165194595.7
+  12288	      102578	119791768.2
+  12288	       78924	155694085.4
+  12288	       71351	172219029.9
+  12288	       75117	163584807.7
+  12288	       83911	146440871.9
+  12288	       75914	161867376.2
+  12288	       81478	150813716.6
+  12288	       77610	158330112.1
+  12288	       85538	143655451.4
+  12288	       76220	161217528.2
+  12288	       92393	132997088.5
+  12288	       74972	163901189.8
+  12288	    60939778	   201641.7
+  12288	       76323	160999960.7
+  12288	       74681	164539842.8
+  12288	       75704	162316390.2
+  12288	       72123	170375608.3
+  12288	       63691	192931497.4
+  12288	       58292	210800796.0
+  12288	       56215	218589344.5
+  12288	       58869	208734648.1
+  12288	       58865	208748832.1
+  12288	       56318	218189566.4
+  12288	       60704	202424881.4
+  12288	      393820	 31202072.0
+  12288	       81450	150865561.7
+  12288	       62255	197381736.4
+  12288	       75512	162729102.7
+  12288	       52512	234003656.3
+  12288	       56310	218220564.7
+  12288	       58423	210328124.2
+  12288	       54145	226946163.1
+  12288	      166990	 73585244.6
+  12288	       56640	216949152.5
+  12288	       71800	171142061.3
+  12288	       97242	126365150.9
+  12288	       92784	132436627.0
+  12288	       66407	185040733.7
+  12288	       72302	169953804.9
+  12288	       84620	145213897.4
+  12288	       75953	161784261.3
+  12288	       78938	155666472.4
+  12288	       73079	168146800.0
+  12288	      153772	 79910516.9
+  12288	       81587	150612229.9
+  12288	       92415	132965427.7
+  12288	       64647	190078425.9
+  12288	       74024	166000216.1
+  12288	       80000	153600000.0
+  12288	       98283	125026708.6
+  12288	       77109	159358829.7
+  12288	       83842	146561389.3
+  12288	       88397	139009242.4
+  12288	       95116	129189621.1
+  12288	       59637	206046581.8
+  12288	       79603	154366041.5
+  12288	       71395	172112893.1
+  12288	       76055	161567286.8
+  12288	       69303	177308341.6
+  12288	       75822	162063781.0
+  12288	       79874	153842301.6
+  12288	       83990	146303131.3
+  12288	       61269	200558194.2
+  12288	       78513	156509113.1
+  12288	       81139	151443818.6
+  12288	       79158	155233836.1
+  12288	       79964	153669151.1
+  12288	       82211	149469049.2
+  12288	       81397	150963794.7
+  12288	       83641	146913595.0
+  12288	       88744	138465699.1
+  12288	       86857	141473916.9
+  12288	       92472	132883467.4
+  12288	       78766	156006398.7
+  12288	       79313	154930465.4
+  12288	       81396	150965649.4
+  12288	       81196	151337504.3
+  12288	       64895	189352030.2
+  12288	       73116	168061710.2
+  12288	       83541	147089453.1
+  12288	       80213	153192126.0
+  12288	       85259	144125546.9
+  12288	       86056	142790740.9
+  12288	       88221	139286564.4
+  12288	       74757	164372567.1
+  12288	       82168	149547269.0
+  12288	       58662	209471207.9
+  12288	       72626	169195604.9
+  12288	       68324	179848955.0
+  12288	       92792	132425209.1
+  12288	       80038	153527074.6
+  12288	       68767	178690360.2
+  12288	       86585	141918346.1
+  12288	       92266	133180153.0
+  12288	       85499	143720979.2
+  12288	       97634	125857795.4
+  12288	       62004	198180762.5
+  12288	    62117108	   197819.9
+  12288	      104298	117816257.3
+  12288	       72956	168430286.7
+  12288	       53858	228155520.1
+  12288	       62497	196617437.6
+  12288	       53090	231456018.1
+  12288	       71748	171266098.0
+  12288	       59017	208211193.4
+  12288	       54021	227467096.1
+  12288	       54086	227193728.5
+  12288	       54063	227290383.4
+  12288	       53110	231368857.1
+  12288	       57505	213685766.5
+  12288	       69064	177921927.5
+  12288	       54977	223511650.3
+  12288	      118238	103925979.8
+  12288	       90605	135621654.4
+  12288	       71254	172453476.3
+  12288	       76878	159837664.9
+  12288	       93563	131333967.5
+  12288	       87979	139669693.9
+  12288	       81092	151531593.7
+  12288	       78547	156441366.3
+  12288	       84738	145011683.1
+  12288	       85115	144369382.6
+  12288	       91329	134546529.6
+  12288	       85711	143365495.7
+  12288	       80161	153291500.9
+  12288	       99673	123283135.9
+  12288	       96556	127262935.5
+  12288	       78341	156852733.6
+  12288	      107916	113866340.5
+  12288	       82541	148871469.9
+  12288	       92133	133372407.3
+  12288	       87721	140080482.4
+  12288	       74885	164091607.1
+  12288	       92506	132834626.9
+  12288	       82910	148208901.2
+  12288	       83585	147012023.7
+  12288	       72295	169970260.7
+  12288	       94664	129806473.4
+  12288	       82116	149641969.9
+  12288	       83353	147421208.6
+  12288	       92925	132235673.9
+  12288	       86192	142565435.3
+  12288	       84026	146240449.4
+  12288	       97805	125637748.6
+  12288	       56879	216037553.4
+  12288	       56167	218776149.7
+  12288	       58155	211297394.9
+  12288	       78598	156339856.0
+  12288	       74581	164760461.8
+  12288	       94315	130286804.9
+  12288	       77509	158536428.0
+  12288	       81690	150422328.3
+  12288	       89661	137049553.3
+  12288	       80647	152367726.0
+  12288	       80513	152621315.8
+  12288	       89189	137774837.7
+  12288	       61308	200430612.6
+  12288	       74485	164972813.3
+  12288	       73800	166504065.0
+  12288	       94326	130271611.2
+  12288	       87574	140315618.8
+  12288	       97197	126423655.1
+  12288	       88243	139251838.7
+  12288	       83053	147953716.3
+  12288	       88335	139106809.3
+  12288	       61617	199425483.2
+  12288	       52856	232480702.3
+  12288	       59244	207413409.0
+  12288	       52078	235953761.7
+  12288	       56100	219037433.2
+  12288	       51258	239728432.6
+  12288	       55690	220650026.9
+  12288	       53789	228448195.7
+  12288	       54779	224319538.5
+  12288	       55708	220578732.0
+  12288	       53476	229785324.3
+  12288	       52950	232067988.7
+  12288	       55445	221625033.8
+  12288	       53524	229579254.2
+  12288	       58743	209182370.7
+  12288	       55430	221685008.1
+  12288	       56041	219268035.9
+  12288	    48897186	   251302.8
+  12288	       81091	151533462.4
+  12288	      177365	 69280861.5
+  12288	       87307	140744728.4
+  12288	       70999	173072860.2
+  12288	       57481	213774986.5
+  12288	       51897	236776692.3
+  12288	       57487	213752674.5
+  12288	      209777	 58576488.4
+  12288	       56019	219354147.7
+  12288	       75204	163395564.1
+  12288	       61258	200594208.1
+  12288	       78967	155609305.2
+  12288	      116760	105241521.1
+  12288	       75196	163412947.5
+  12288	       58905	208607079.2
+  12288	       78023	157492021.6
+  12288	      113862	107920113.8
+  12288	       56640	216949152.5
+  12288	       78188	157159666.4
+  12288	       61323	200381586.0
+  12288	       61454	199954437.5
+  12288	       53712	228775692.6
+  12288	       52892	232322468.4
+  12288	       77186	159199854.9
+  12288	       60009	204769284.6
+  12288	       53673	228941926.1
+  12288	       53536	229527794.4
+  12288	       92190	133289944.7
+  12288	       84544	145344436.0
+  12288	       60677	202514956.2
+  12288	       56023	219338486.0
+  12288	       50556	243057203.9
+  12288	       83591	147001471.5
+  12288	       58995	208288838.0
+  12288	       78248	157039157.6
+  12288	       58990	208306492.6
+  12288	       87837	139895488.2
+  12288	       56203	218636015.9
+  12288	       53763	228558674.2
+  12288	       72640	169162995.6
+  12288	      323749	 37955329.6
+  12288	       58276	210858672.5
+  12288	       59231	207458932.0
+  12288	       54866	223963839.2
+  12288	       55206	222584501.7
+  12288	       67861	181076023.0
+  12288	       55258	222375040.7
+  12288	       54095	227155929.4
+  12288	       56740	216566795.9
+  12288	       51838	237046182.3
+  12288	       62775	195746714.5
+  12288	       52479	234150803.2
+  12288	       54685	224705129.4
+  12288	       53458	229862695.9
+  12288	      201077	 61110917.7
+  12288	       84502	145416676.5
+  12288	       89357	137515807.4
+  12288	       89208	137745493.7
+  12288	       82928	148176731.6
+  12288	       80560	152532274.1
+  12288	       80416	152805411.9
+  12288	       75237	163323896.5
+  12288	       82061	149742264.9
+  12288	      130842	 93914798.0
+  12288	       82919	148192814.7
+  12288	      115238	106631493.1
+  12288	       85359	143956700.5
+  12288	       75299	163189418.2
+  12288	       98275	125036886.3
+  12288	       56761	216486672.2
+  12288	       62975	195125049.6
+  12288	       54048	227353463.6
+  12288	       55356	221981357.0
+  12288	       51987	236366784.0
+  12288	       53491	229720887.6
+  12288	       78656	156224572.8
+  12288	       88372	139048567.4
+  12288	       75248	163300021.3
+  12288	      112559	109169413.4
+  12288	       80789	152099914.6
+  12288	       90345	136011954.2
+  12288	       60633	202661916.8
+  12288	       74078	165879208.4
+  12288	       83026	148001830.8
+  12288	       79088	155371232.0
+  12288	    38937387	   315583.6
+  12288	      108667	113079407.7
+  12288	      152227	 80721554.0
+  12288	       55230	222487778.4
+  12288	      173206	 70944424.6
+  12288	       96630	127165476.6
+  12288	       92042	133504269.8
+  12288	       50205	244756498.4
+  12288	      108131	113639936.7
+  12288	       55926	219718914.3
+  12288	       57225	214731323.7
+  12288	      103766	118420291.8
+  12288	       59328	207119741.1
+  12288	       78648	156240463.8
+  12288	       58461	210191409.7
+  12288	       80320	152988047.8
+  12288	       57793	212620905.6
+  12288	       77628	158293399.3
+  12288	       58115	211442828.9
+  12288	       83973	146332749.8
+  12288	       89539	137236288.1
+  12288	       84851	144818564.3
+  12288	       85991	142898675.4
+  12288	       85426	143843794.6
+  12288	       86772	141612501.7
+  12288	       88359	139069025.2
+  12288	       86127	142673029.4
+  12288	      124302	 98856012.0
+  12288	       85558	143621870.5
+  12288	       86527	142013475.6
+  12288	      120490	101983567.1
+  12288	      102942	119368187.9
+  12288	       68029	180628849.5
+  12288	       92289	133146962.3
+  12288	       84905	144726459.0
+  12288	       80595	152466033.9
+  12288	       93756	131063611.9
+  12288	       74831	164210019.9
+  12288	       81532	150713830.2
+  12288	       76076	161522687.8
+  12288	       85241	144155981.3
+  12288	       80554	152543635.3
+  12288	       81796	150227395.0
+  12288	       98723	124469475.2
+  12288	       77866	157809570.3
+  12288	      102908	119407626.2
+  12288	       84171	145988523.4
+  12288	       93288	131721121.7
+  12288	       85425	143845478.5
+  12288	       95066	129257568.4
+  12288	       86540	141992142.4
+  12288	       92975	132164560.4
+  12288	       88772	138422025.0
+  12288	       96414	127450370.3
+  12288	       91728	133961276.8
+  12288	       62602	196287658.5
+  12288	       52154	235609924.5
+  12288	       74414	165130217.4
+  12288	       84726	145032221.5
+  12288	       79037	155471488.0
+  12288	       96454	127397515.9
+  12288	       86571	141941296.7
+  12288	       90987	135052260.2
+  12288	       91794	133864958.5
+  12288	       89839	136778014.0
+  12288	       62682	196037139.8
+  12288	       52141	235668667.7
+  12288	       79519	154529106.3
+  12288	       77282	159002096.2
+  12288	       94594	129902530.8
+  12288	       96404	127463590.7
+  12288	       67663	181605899.8
+  12288	       52655	233368151.2
+  12288	       56930	215844019.0
+  12288	       52885	232353219.2
+  12288	       62668	196080934.4
+  12288	       53079	231503984.6
+  12288	      168529	 72913267.2
+  12288	       52954	232050458.9
+  12288	       61350	200293398.5
+  12288	       51650	237909002.9
+  12288	       54826	224127238.9
+  12288	       60564	202892807.6
+  12288	       54623	224960181.6
+  12288	       56399	217876203.5
+  12288	    67080266	   183183.5
+  12288	       68813	178570909.6
+  12288	       54632	224923122.0
+  12288	       63747	192762012.3
+  12288	       53855	228168229.5
+  12288	       68196	180186521.2
+  12288	       57928	212125397.0
+  12288	       56466	217617681.4
+  12288	       57360	214225941.4
+  12288	       57804	212580444.3
+  12288	       56936	215821273.0
+  12288	       58152	211308295.5
+  12288	       53057	231599977.4
+  12288	       62251	197394419.4
+  12288	       50995	240964800.5
+  12288	       49394	248775154.9
+  12288	       65150	188610897.9
+  12288	       48551	253094683.9
+  12288	       46405	264799051.8
+  12288	       50215	244707756.6
+  12288	       46129	266383403.1
+  12288	       47115	260808659.7
+  12288	       45533	269870204.0
+  12288	       44641	275262650.9
+  12288	       47061	261107923.8
+  12288	       46881	262110449.9
+  12288	       52494	234083895.3
+  12288	       50481	243418315.8
+  12288	       44016	279171210.5
+  12288	       42495	289163431.0
+  12288	       39811	308658411.0
+  12288	       37403	328529797.1
+  12288	       39060	314592933.9
+  12288	       60229	204021318.6
+  12288	       45018	272957483.7
+  12288	       49707	247208642.6
+  12288	       37259	329799511.5
+  12288	       38948	315497586.5
+  12288	       37123	331007731.1
+  12288	       39304	312639934.9
+  12288	       39486	311198905.9
+  12288	       37225	330100738.8
+  12288	       36976	332323669.4
+  12288	       40852	300793106.8
+  12288	       40319	304769463.5
+  12288	       39898	307985362.7
+  12288	       37683	326088687.2
+  12288	       41679	294824731.9
+  12288	       39026	314867011.7
+  12288	       38465	319459248.7
+  12288	       37861	324555611.3
+  12288	       49904	246232766.9
+  12288	       47799	257076507.9
+  12288	       48393	253921021.6
+  12288	       71937	170816130.8
+  12288	       37650	326374502.0
+  12288	       58306	210750180.1
+  12288	       46219	265864687.7
+  12288	       36233	339138354.5
+  12288	       39137	313973988.8
+  12288	       46590	263747585.3
+  12288	       39569	310546134.6
+  12288	       37283	329587211.3
+  12288	       36896	333044232.4
+  12288	       41004	299678080.2
+  12288	       37055	331615166.6
+  12288	       46878	262127223.9
+  12288	       38750	317109677.4
+  12288	       40540	303108041.4
+  12288	       39099	314279137.6
+  12288	       36116	340237014.1
+  12288	       36884	333152586.5
+  12288	       38308	320768507.9
+  12288	       35967	341646509.3
+  12288	       37080	331391585.8
+  12288	       37816	324941823.6
+  12288	       36841	333541434.8
+  12288	       38233	321397745.4
+  12288	       36317	338353938.9
+  12288	       37419	328389320.9
+  12288	       37890	324307205.1
+  12288	       35836	342895412.4
+  12288	       36255	338932561.0
+  12288	       38072	322756881.7
+  12288	       46977	261574813.2
+  12288	    49388211	   248804.3
+  12288	       81893	150049454.8
+  12288	       74035	165975552.1
+  12288	      113951	107835824.2
+  12288	       87105	141071121.1
+  12288	       67419	182263160.2
+  12288	       77301	158963014.7
+  12288	       79194	155163269.9
+  12288	       71051	172946193.6
+  12288	       95791	128279274.7
+  12288	       62394	196942013.7
+  12288	       88063	139536468.2
+  12288	       75584	162574089.8
+  12288	      124856	 98417376.8
+  12288	      135040	 90995260.7
+  12288	       98737	124451826.6
+  12288	       93770	131044043.9
+  12288	       91672	134043110.2
+  12288	       61295	200473121.8
+  12288	       57380	214151272.2
+  12288	       53435	229961635.6
+  12288	       53530	229553521.4
+  12288	       61172	200876217.9
+  12288	       91764	133908722.4
+  12288	       88559	138754954.3
+  12288	       92857	132332511.3
+  12288	       91525	134258399.3
+  12288	       94452	130097827.5
+  12288	      102378	120025786.8
+  12288	       93316	131681598.0
+  12288	       60036	204677193.7
+  12288	       53728	228707564.0
+  12288	       52083	235931110.0
+  12288	       55292	222238298.5
+  12288	       51429	238931342.2
+  12288	       59684	205884324.1
+  12288	       51881	236849713.8
+  12288	       53675	228933395.4
+  12288	       55708	220578732.0
+  12288	       53059	231591247.5
+  12288	       76141	161384799.3
+  12288	      125849	 97640823.5
+  12288	       82472	148996022.9
+  12288	       86159	142620039.7
+  12288	       85270	144106954.4
+  12288	       76996	159592706.1
+  12288	       83278	147553975.8
+  12288	       82253	149392727.3
+  12288	       79543	154482481.2
+  12288	       88538	138787865.1
+  12288	       79264	155026241.4
+  12288	       83936	146397255.1
+  12288	      131399	 93516693.4
+  12288	       62461	196730760.0
+  12288	       52936	232129363.8
+  12288	       60646	202618474.4
+  12288	       71706	171366412.9
+  12288	       82402	149122594.1
+  12288	       81334	151080728.8
+  12288	       94030	130681697.3
+  12288	       60442	203302339.4
+  12288	       56612	217056454.5
+  12288	       53481	229763841.4
+  12288	       77826	157890679.2
+  12288	       85739	143318676.4
+  12288	       81943	149957897.6
+  12288	       90029	136489353.4
+  12288	       64673	190002010.1
+  12288	       52518	233976922.2
+  12288	       86118	142687939.8
+  12288	       81304	151136475.5
+  12288	      103279	118978688.8
+  12288	       82665	148648158.2
+  12288	       89179	137790287.0
+  12288	       58706	209314209.8
+  12288	       74606	164705251.6
+  12288	       89074	137952713.5
+  12288	       63223	194359647.6
+  12288	       76083	161507827.0
+  12288	       78983	155577782.6
+  12288	       84473	145466598.8
+  12288	       97008	126669965.4
+  12288	       51807	237188024.8
+  12288	       54195	226736783.8
+  12288	      137765	 89195368.9
+  12288	      123195	 99744307.8
+  12288	    60753333	   202260.5
+  12288	       65718	186980735.9
+  12288	       78251	157033137.0
+  12288	       71708	171361633.3
+  12288	       71058	172929156.5
+  12288	       52831	232590713.8
+  12288	       66843	183833759.7
+  12288	       69746	176182146.6
+  12288	       71272	172409922.6
+  12288	       70618	174006627.2
+  12288	       56856	216124947.2
+  12288	       58110	211461022.2
+  12288	       50315	244221405.1
+  12288	       52003	236294060.0
+  12288	       55748	220420463.5
+  12288	       51547	238384387.1
+  12288	       53437	229953028.8
+  12288	       52629	233483440.7
+  12288	       57339	214304400.1
+  12288	       62465	196718162.2
+  12288	       51738	237504348.8
+  12288	       57272	214555105.5
+  12288	       52055	236058015.6
+  12288	       62201	197553094.0
+  12288	       52161	235578305.6
+  12288	       51841	237032464.7
+  12288	       52662	233337131.1
+  12288	       50684	242443374.6
+  12288	       53219	230894981.1
+  12288	       52999	231853431.2
+  12288	       51037	240766502.7
+  12288	       58795	208997363.7
+  12288	       50483	243408672.2
+  12288	       51739	237499758.4
+  12288	       52308	234916265.2
+  12288	       56076	219131179.1
+  12288	       53012	231796574.4
+  12288	       52462	234226678.4
+  12288	       52045	236103372.1
+  12288	       50480	243423137.9
+  12288	       50316	244216551.4
+  12288	       56747	216540081.4
+  12288	       51591	238181078.1
+  12288	       55076	223109884.5
+  12288	       51161	240182951.9
+  12288	       57527	213604046.8
+  12288	       54007	227526061.4
+  12288	       54540	225302530.3
+  12288	       54590	225096171.5
+  12288	       54457	225645922.5
+  12288	       52385	234570965.0
+  12288	       55915	219762139.0
+  12288	       58350	210591259.6
+  12288	       54051	227340844.8
+  12288	       52079	235949231.0
+  12288	       53922	227884722.4
+  12288	       53141	231233887.2
+  12288	       53788	228452442.9
+  12288	       51106	240441435.4
+  12288	       53711	228779952.0
+  12288	       51810	237174290.7
+  12288	       55640	220848310.6
+  12288	       54317	226227516.2
+  12288	       53679	228916336.0
+  12288	       56836	216200999.4
+  12288	       54093	227164328.1
+  12288	       53671	228950457.4
+  12288	       54651	224844925.1
+  12288	       54232	226582091.8
+  12288	       54421	225795189.4
+  12288	       51992	236344052.9
+  12288	       55634	220872128.6
+  12288	       56509	217452087.3
+  12288	       60724	202358210.9
+  12288	       59354	207029012.4
+  12288	       56042	219264123.3
+  12288	       53322	230448970.4
+  12288	       54011	227509211.1
+  12288	       51176	240112552.8
+  12288	       53598	229262285.9
+  12288	       52117	235777193.6
+  12288	       57133	215077100.8
+  12288	       51521	238504687.4
+  12288	       53151	231190382.1
+  12288	       53254	230743230.6
+  12288	    59207646	   207540.8
+  12288	       81436	150891497.6
+  12288	       56392	217903248.7
+  12288	      471756	 26047363.5
+  12288	       74715	164464966.9
+  12288	       46304	265376641.3
+  12288	       55130	222891347.7
+  12288	       43024	285608032.7
+  12288	       42595	288484563.9
+  12288	       46626	263543945.4
+  12288	       59356	207022036.5
+  12288	       46974	261591518.7
+  12288	       48955	251006025.9
+  12288	       43703	281170629.0
+  12288	       47307	259750142.7
+  12288	       45017	272963547.1
+  12288	       44109	278582602.2
+  12288	       45717	268784040.9
+  12288	       44044	278993733.5
+  12288	       48215	254858446.5
+  12288	       43968	279475982.5
+  12288	       44812	274212264.6
+  12288	       46150	266262188.5
+  12288	       43894	279947145.4
+  12288	       46391	264878963.6
+  12288	       46333	265210541.1
+  12288	       43755	280836475.8
+  12288	       46361	265050365.6
+  12288	       44363	276987579.7
+  12288	       74127	165769557.7
+  12288	       54362	226040248.7
+  12288	       52021	236212298.9
+  12288	       50124	245152023.0
+  12288	       47932	256363181.2
+  12288	       43002	285754151.0
+  12288	       43978	279412433.5
+  12288	       42195	291219338.8
+  12288	       41573	295576455.9
+  12288	       43279	283925229.3
+  12288	       43024	285608032.7
+  12288	       41473	296289152.0
+  12288	       43710	281125600.5
+  12288	       41509	296032185.8
+  12288	       44745	274622862.9
+  12288	       42760	287371375.1
+  12288	       38792	316766343.6
+  12288	       38768	316962443.3
+  12288	       36793	333976571.6
+  12288	       35723	343980068.9
+  12288	       39827	308534411.3
+  12288	       37312	329331046.3
+  12288	       38012	323266336.9
+  12288	       36034	341011267.1
+  12288	       35868	342589494.8
+  12288	       44284	277481709.0
+  12288	       36900	333008130.1
+  12288	       35952	341789052.1
+  12288	       38419	319841745.0
+  12288	       35920	342093541.2
+  12288	       39231	313221686.9
+  12288	       36596	335774401.6
+  12288	       36306	338456453.5
+  12288	       37770	325337569.5
+  12288	       36048	340878828.2
+  12288	       37842	324718566.7
+  12288	       37762	325406493.3
+  12288	       36459	337036122.8
+  12288	       37877	324418512.6
+  12288	       36528	336399474.4
+  12288	       37235	330012085.4
+  12288	       37613	326695557.4
+  12288	       36384	337730870.7
+  12288	       35653	344655428.7
+  12288	       37680	326114649.7
+  12288	       36936	332683560.8
+  12288	       42015	292466976.1
+  12288	       36964	332431555.0
+  12288	       36135	340058115.4
+  12288	       38053	322918035.4
+  12288	       37287	329551854.5
+  12288	       35439	346736646.1
+  12288	       37427	328319127.9
+  12288	       36747	334394644.5
+  12288	       37748	325527180.2
+  12288	       36931	332728602.0
+  12288	    63430218	   193724.7
+  12288	       83412	147316932.8
+  12288	      218203	 56314532.8
+  12288	       83412	147316932.8
+  12288	      120649	101849165.8
+  12288	       78047	157443591.7
+  12288	      127577	 96318301.9
+  12288	      193960	 63353268.7
+  12288	       57937	212092445.2
+  12288	       51307	239499483.5
+  12288	       83276	147557519.6
+  12288	       54356	226065199.8
+  12288	       81355	151041730.7
+  12288	      107534	114270835.3
+  12288	      109123	112606874.8
+  12288	       74556	164815709.0
+  12288	       76370	160900877.3
+  12288	       55579	221090699.7
+  12288	       53399	230116668.9
+  12288	      100985	121681437.8
+  12288	       70233	174960488.7
+  12288	      106858	114993730.0
+  12288	       72082	170472517.4
+  12288	      255038	 48181055.4
+  12288	       66853	183806261.5
+  12288	       53359	230289173.3
+  12288	       60055	204612438.6
+  12288	       52999	231853431.2
+  12288	       58377	210493858.9
+  12288	       54153	226912636.4
+  12288	       55341	222041524.4
+  12288	       51694	237706503.7
+  12288	       54425	225778594.4
+  12288	       53301	230539764.7
+  12288	       55809	220179540.9
+  12288	       53457	229866995.9
+  12288	       53568	229390681.0
+  12288	       52731	233031802.9
+  12288	       54128	227017440.1
+  12288	       57908	212198659.9
+  12288	       53623	229155399.7
+  12288	       53546	229484928.8
+  12288	       55378	221893170.6
+  12288	       55209	222572406.7
+  12288	       56000	219428571.4
+  12288	       53791	228439701.8
+  12288	       54068	227269364.5
+  12288	       53919	227897401.7
+  12288	       53997	227568198.2
+  12288	       54433	225745411.8
+  12288	       54057	227315611.3
+  12288	       52048	236089763.3
+  12288	       53696	228843861.7
+  12288	       51720	237587007.0
+  12288	       56076	219131179.1
+  12288	       52952	232059223.4
+  12288	       53765	228550172.0
+  12288	       51947	236548790.1
+  12288	       57976	211949772.3
+  12288	       53353	230315071.3
+  12288	       59205	207550038.0
+  12288	       51450	238833819.2
+  12288	       53656	229014462.5
+  12288	       53980	227639866.6
+  12288	       56200	218647686.8
+  12288	       51506	238574146.7
+  12288	       53997	227568198.2
+  12288	       51965	236466852.7
+  12288	       61541	199671763.5
+  12288	       55440	221645021.6
+  12288	       53999	227559769.6
+  12288	       51881	236849713.8
+  12288	       54411	225836687.4
+  12288	       51428	238935988.2
+  12288	       55624	220911836.6
+  12288	       55051	223211204.2
+  12288	       53949	227770672.3
+  12288	       51657	237876764.0
+  12288	       54480	225550660.8
+  12288	       56515	217429001.2
+  12288	       55468	221533136.2
+  12288	       56932	215836436.5
+  12288	       54702	224635296.7
+  12288	       51946	236553343.9
+  12288	       57314	214397878.4
+  12288	       52996	231866556.0
+  12288	    60648755	   202609.3
+  12288	       69608	176531433.2
+  12288	       56082	219107735.1
+  12288	       77094	159389835.8
+  12288	       51845	237014176.9
+  12288	       53851	228185177.6
+  12288	       51698	237688111.7
+  12288	       55751	220408602.5
+  12288	       62049	198037035.2
+  12288	      109392	112329969.3
+  12288	       94225	130411249.7
+  12288	       94872	129521882.1
+  12288	       95366	128850953.2
+  12288	       92810	132399525.9
+  12288	       90848	135258894.0
+  12288	       92777	132446619.3
+  12288	       88179	139352907.2
+  12288	      113449	108312986.5
+  12288	       91770	133899967.3
+  12288	       61737	199037854.1
+  12288	       54622	224964300.1
+  12288	       58535	209925685.5
+  12288	       50257	244503253.3
+  12288	       50878	241518927.6
+  12288	       52208	235366227.4
+  12288	       52254	235159030.9
+  12288	       50679	242467294.1
+  12288	       69323	177257187.4
+  12288	       52694	233195430.2
+  12288	       51724	237568633.5
+  12288	       57046	215405111.7
+  12288	       56197	218659359.0
+  12288	       51487	238662186.6
+  12288	       48943	251067568.4
+  12288	       51629	238005771.9
+  12288	       85376	143928036.0
+  12288	       76945	159698485.9
+  12288	       54668	224775005.5
+  12288	       51566	238296552.0
+  12288	       50486	243394208.3
+  12288	       60142	204316451.1
+  12288	       57148	215020648.1
+  12288	       51330	239392168.3
+  12288	       52925	232177609.8
+  12288	       55283	222274478.6
+  12288	       51816	237146827.2
+  12288	       50004	245740340.8
+  12288	       49733	247079404.0
+  12288	       50160	244976076.6
+  12288	       49997	245774746.5
+  12288	       52073	235976417.7
+  12288	       49630	247592182.1
+  12288	       68948	178221268.2
+  12288	       51629	238005771.9
+  12288	       49613	247677020.1
+  12288	       59675	205915374.9
+  12288	       57405	214058008.9
+  12288	       52331	234813017.1
+  12288	       51246	239784568.6
+  12288	       54032	227420787.7
+  12288	       54526	225360378.5
+  12288	       63560	193329137.8
+  12288	       51336	239364188.9
+  12288	       56317	218193440.7
+  12288	       54923	223731405.8
+  12288	       60116	204404817.4
+  12288	       56456	217656227.9
+  12288	       55852	220010026.5
+  12288	       74450	165050369.4
+  12288	       89260	137665247.6
+  12288	       75539	162670938.2
+  12288	       71164	172671575.5
+  12288	       68598	179130586.9
+  12288	       48467	253533332.0
+  12288	       56792	216368502.6
+  12288	       52036	236144207.9
+  12288	       56692	216750158.8
+  12288	       52114	235790766.4
+  12288	       68980	178138590.9
+  12288	       57958	212015597.5
+  12288	       50501	243321914.4
+  12288	       55207	222580469.9
+  12288	       55376	221901184.6
+  12288	       53226	230864615.0
+  12288	       55518	221333621.5
+  12288	    68603588	   179116.0
+  12288	       88367	139056435.1
+  12288	       78392	156750688.8
+  12288	       97939	125465851.2
+  12288	       71199	172586693.6
+  12288	       81628	150536580.6
+  12288	       73683	166768454.1
+  12288	       72383	169763618.5
+  12288	       79531	154505790.2
+  12288	       87196	140923895.6
+  12288	      150685	 81547599.3
+  12288	       78415	156704712.1
+  12288	       82531	148889508.2
+  12288	       69811	176018106.0
+  12288	       77388	158784307.6
+  12288	       73388	167438818.3
+  12288	       77658	158232249.1
+  12288	      135820	 90472684.4
+  12288	       86478	142093943.0
+  12288	       69832	175965173.6
+  12288	       71125	172766256.6
+  12288	      122876	100003255.3
+  12288	      127886	 96085576.2
+  12288	       82032	149795201.9
+  12288	      116770	105232508.3
+  12288	       69632	176470588.2
+  12288	       73737	166646324.1
+  12288	       72023	170612165.6
+  12288	       74062	165915044.2
+  12288	       70176	175102599.2
+  12288	       68548	179261247.6
+  12288	       71241	172484945.5
+  12288	       68339	179809479.2
+  12288	       78225	157085330.8
+  12288	       68556	179240329.1
+  12288	       69271	177390249.9
+  12288	       82566	148826393.4
+  12288	       73951	166164081.6
+  12288	       98644	124569157.8
+  12288	      115370	106509491.2
+  12288	       87951	139714159.0
+  12288	       73392	167429692.6
+  12288	       78780	155978674.8
+  12288	       71180	172632762.0
+  12288	       74376	165214585.4
+  12288	       69383	177103901.5
+  12288	       72663	169109450.5
+  12288	       69138	177731493.5
+  12288	      103769	118416868.2
+  12288	       94863	129534170.3
+  12288	      120951	101594860.7
+  12288	      103445	118787761.6
+  12288	      119594	102747629.5
+  12288	       77616	158317872.6
+  12288	       89016	138042599.1
+  12288	      103856	118317670.6
+  12288	      109001	112732910.7
+  12288	       99612	123358631.5
+  12288	      103462	118768243.4
+  12288	      103471	118757912.8
+  12288	       79373	154813349.6
+  12288	       99203	123867221.8
+  12288	       81825	150174152.2
+  12288	       74647	164614786.9
+  12288	       74684	164533233.4
+  12288	       70423	174488448.4
+  12288	       75085	163654524.9
+  12288	       74142	165736020.1
+  12288	       76018	161645926.0
+  12288	       70096	175302442.4
+  12288	       73008	168310322.2
+  12288	       71523	171804874.0
+  12288	       73684	166766190.8
+  12288	       70296	174803687.3
+  12288	       75486	162785152.2
+  12288	       74391	165181271.9
+  12288	       74627	164658903.6
+  12288	       70385	174582652.6
+  12288	       76138	161391158.2
+  12288	       74431	165092501.8
+  12288	       79053	155440021.3
+  12288	       77404	158751485.7
+  12288	       71714	171347296.2
+  12288	       96593	127214187.4
+  12288	       86370	142271622.1
+  12288	    56813794	   216285.5
+  12288	       89599	137144387.8
+  12288	      164679	 74617893.0
+  12288	       68557	179237714.6
+  12288	      121946	100765912.8
+  12288	       66557	184623706.0
+  12288	       72011	170640596.6
+  12288	       71317	172301134.4
+  12288	       76531	160562386.5
+  12288	       65916	186419078.8
+  12288	       62804	195656327.6
+  12288	       63142	194608976.6
+  12288	       64844	189500956.1
+  12288	       65468	187694751.6
+  12288	       60397	203453813.9
+  12288	       65862	186571923.1
+  12288	       59662	205960242.7
+  12288	       66244	185496044.9
+  12288	       60363	203568411.1
+  12288	       79511	154544654.2
+  12288	       62768	195768544.5
+  12288	       65645	187188666.3
+  12288	       61398	200136812.3
+  12288	       63476	193584977.0
+  12288	       62817	195615836.5
+  12288	       78368	156798693.3
+  12288	       62218	197499116.0
+  12288	       63371	193905729.8
+  12288	       65647	187182963.4
+  12288	       65928	186385147.4
+  12288	       62112	197836166.9
+  12288	       65282	188229527.3
+  12288	       61152	200941915.2
+  12288	       62946	195214946.1
+  12288	       60857	201915966.9
+  12288	       64875	189410404.6
+  12288	       64533	190414206.7
+  12288	       63695	192919381.4
+  12288	       67838	181137415.6
+  12288	       66610	184476805.3
+  12288	       62271	197331020.9
+  12288	       64568	190310990.0
+  12288	       62247	197407104.0
+  12288	       62393	196945170.1
+  12288	       60526	203020189.7
+  12288	       65555	187445656.3
+  12288	       66103	185891714.4
+  12288	       63774	192680402.7
+  12288	      127471	 96398396.5
+  12288	       64972	189127624.2
+  12288	       60647	202615133.5
+  12288	       65878	186526609.8
+  12288	       60936	201654194.6
+  12288	       61163	200905776.4
+  12288	       62295	197254996.4
+  12288	       67235	182761954.3
+  12288	       62143	197737476.5
+  12288	       64460	190629848.0
+  12288	       64739	189808307.2
+  12288	       62972	195134345.4
+  12288	       59877	205220702.4
+  12288	       65767	186841425.0
+  12288	       68305	179898982.5
+  12288	       62862	195475804.1
+  12288	       61403	200120515.3
+  12288	       63037	194933134.5
+  12288	       84000	146285714.3
+  12288	       64690	189952079.1
+  12288	       76397	160844012.2
+  12288	       70689	173831855.0
+  12288	       69247	177451730.8
+  12288	       59693	205853282.6
+  12288	       59424	206785137.3
+  12288	       61776	198912198.9
+  12288	       59414	206819941.4
+  12288	       63827	192520406.7
+  12288	       59209	207536016.5
+  12288	       72617	169216574.6
+  12288	       63493	193533145.4
+  12288	       60318	203720282.5
+  12288	       66891	183701843.3
+  12288	       62479	196674082.5
+  12288	       59791	205515880.3
+  12288	       61956	198334301.8
+  12288	       60012	204759048.2
+  12288	       61104	201099764.3
+  12288	    63733776	   192802.0
+  12288	       79359	154840660.8
+  12288	       68336	179817373.0
+  12288	       88646	138618775.8
+  12288	       98670	124536333.2
+  12288	       75716	162290665.1
+  12288	       71938	170813756.3
+  12288	       69546	176688810.3
+  12288	       68434	179559867.9
+  12288	      110035	111673558.4
+  12288	      119216	103073413.0
+  12288	       81100	151516646.1
+  12288	       69442	176953428.8
+  12288	       77601	158348474.9
+  12288	       90134	136330352.6
+  12288	       70398	174550413.4
+  12288	       67419	182263160.2
+  12288	       80980	151741170.7
+  12288	       78802	155935128.6
+  12288	      107832	113955041.2
+  12288	      108181	113587413.7
+  12288	       85314	144032632.4
+  12288	       69694	176313599.4
+  12288	       72662	169111777.8
+  12288	       68291	179935862.7
+  12288	       73826	166445425.7
+  12288	       67869	181054678.9
+  12288	       65862	186571923.1
+  12288	       69899	175796506.4
+  12288	       68881	178394622.6
+  12288	       68757	178716348.9
+  12288	       66800	183952095.8
+  12288	       99540	123447860.2
+  12288	      116334	105626901.9
+  12288	       73395	167422849.0
+  12288	       66146	185770870.5
+  12288	      102235	120193671.4
+  12288	       80085	153436973.2
+  12288	       65100	188755760.4
+  12288	       79324	154908980.9
+  12288	       65245	188336271.0
+  12288	       64875	189410404.6
+  12288	       56718	216650798.7
+  12288	       89522	137262348.9
+  12288	       75057	163715576.2
+  12288	       85481	143751243.0
+  12288	       61846	198687061.4
+  12288	       55013	223365386.4
+  12288	       59386	206917455.3
+  12288	       53537	229523507.1
+  12288	       62137	197756570.2
+  12288	       55129	222895390.8
+  12288	       64476	190582542.3
+  12288	       57846	212426096.9
+  12288	       54726	224536783.2
+  12288	       51802	237210918.5
+  12288	       54799	224237668.6
+  12288	       51800	237220077.2
+  12288	       86222	142515831.2
+  12288	       58959	208416017.9
+  12288	       54640	224890190.3
+  12288	       71397	172108071.8
+  12288	       58760	209121851.6
+  12288	       53668	228963255.6
+  12288	       55257	222379065.1
+  12288	       55322	222117783.2
+  12288	       56162	218795626.9
+  12288	       51662	237853741.6
+  12288	       55072	223126089.5
+  12288	       74775	164332999.0
+  12288	       64046	191862099.1
+  12288	       51797	237233816.6
+  12288	       77953	157633445.8
+  12288	       72809	168770344.3
+  12288	       54928	223711039.9
+  12288	       51211	239948448.6
+  12288	       51792	237256719.2
+  12288	       66972	183479663.1
+  12288	       49830	246598434.7
+  12288	       58142	211344639.0
+  12288	       46341	265164756.9
+  12288	       41729	294471470.7
+  12288	       45264	271474019.1
+  12288	       44352	277056277.1
+  12288	       43329	283597590.5
+   4096	       59401	 68955068.1
+------------------ Total ------------------
+16777216	1021466664	1.64246e+07

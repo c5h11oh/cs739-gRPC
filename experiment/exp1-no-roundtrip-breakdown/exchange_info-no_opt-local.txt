@@ -1,0 +1,97 @@
+Roundtrip...
+-------------------------
+Connecting to server localhost:53706
+
+[Integer]
+Serialize takes: 1852ns. 
+Deserialize takes: 3605ns. 
+Roundtrip takes: 5605359ns. 
+Serialize takes: 843ns. 
+Deserialize takes: 1819ns. 
+Roundtrip takes: 330345ns. 
+Serialize takes: 630ns. 
+Deserialize takes: 1721ns. 
+Roundtrip takes: 284723ns. 
+Serialize takes: 659ns. 
+Deserialize takes: 1507ns. 
+Roundtrip takes: 270509ns. 
+Serialize takes: 555ns. 
+Deserialize takes: 1699ns. 
+Roundtrip takes: 289062ns. 
+
+Marshal and unmarshal...
+-------------------------
+Connecting to server localhost:53706
+
+[Integer]
+Serialize takes: 744ns. 
+Deserialize takes: 2747ns. 
+Serialize takes: 751ns. 
+Deserialize takes: 1475ns. 
+Serialize takes: 557ns. 
+Deserialize takes: 1458ns. 
+Serialize takes: 557ns. 
+Deserialize takes: 1397ns. 
+Serialize takes: 520ns. 
+Deserialize takes: 1361ns. 
+
+[Double]
+Serialize takes: 513ns. 
+Deserialize takes: 1526ns. 
+Serialize takes: 522ns. 
+Deserialize takes: 1422ns. 
+Serialize takes: 531ns. 
+Deserialize takes: 1376ns. 
+Serialize takes: 504ns. 
+Deserialize takes: 1403ns. 
+Serialize takes: 499ns. 
+Deserialize takes: 1315ns. 
+
+[String - 10 chars]
+Serialize takes: 1111ns. 
+Deserialize takes: 2646ns. 
+Serialize takes: 642ns. 
+Deserialize takes: 2052ns. 
+Serialize takes: 638ns. 
+Deserialize takes: 2177ns. 
+Serialize takes: 688ns. 
+Deserialize takes: 2138ns. 
+Serialize takes: 634ns. 
+Deserialize takes: 2154ns. 
+
+[String - 100 chars]
+Serialize takes: 3255ns. 
+Deserialize takes: 2490ns. 
+Serialize takes: 1755ns. 
+Deserialize takes: 2268ns. 
+Serialize takes: 1690ns. 
+Deserialize takes: 2289ns. 
+Serialize takes: 1639ns. 
+Deserialize takes: 2240ns. 
+Serialize takes: 1586ns. 
+Deserialize takes: 2251ns. 
+
+[String - 1000 chars]
+Serialize takes: 2168ns. 
+Deserialize takes: 3152ns. 
+Serialize takes: 1986ns. 
+Deserialize takes: 2662ns. 
+Serialize takes: 2027ns. 
+Deserialize takes: 2638ns. 
+Serialize takes: 1992ns. 
+Deserialize takes: 2604ns. 
+Serialize takes: 1988ns. 
+Deserialize takes: 2618ns. 
+
+[Complex]
+Serialize takes: 1542ns. 
+Deserialize takes: 2954ns. 
+Serialize takes: 1681ns. 
+Deserialize takes: 2963ns. 
+Serialize takes: 1674ns. 
+Deserialize takes: 2908ns. 
+Serialize takes: 1707ns. 
+Deserialize takes: 2936ns. 
+Serialize takes: 1645ns. 
+Deserialize takes: 3893ns. 
+

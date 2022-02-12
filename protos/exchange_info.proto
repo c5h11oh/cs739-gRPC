@@ -1,5 +1,6 @@
 syntax = "proto3";
 
+import "google/protobuf/empty.proto";
 package cs739;
 
 service ExchangeInfo {
@@ -7,6 +8,7 @@ service ExchangeInfo {
   rpc ExchangeDouble(Double) returns(Double) {}
   rpc ExchangeString(String) returns(String) {}
   rpc ExchangeComplex(Complex) returns(Complex) {}
+  rpc RoundTrip(google.protobuf.Empty) returns(Time) {}
 }
 
 message Integer {
@@ -25,4 +27,9 @@ message Complex {
   int32 i = 1;
   double d = 2;
   string s = 3;
+}
+
+message Time {
+  int64 sec = 1;
+  int64 nsec = 2;
 }

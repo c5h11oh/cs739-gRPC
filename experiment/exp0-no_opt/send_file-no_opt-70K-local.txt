@@ -1,0 +1,17 @@
+Serialize takes:        16741 ns.
+Serialize takes:         5882 ns.
+Serialize takes:         4828 ns.
+Serialize takes:         4711 ns.
+Serialize takes:         4413 ns.
+Serialize takes:         4957 ns.
+Deserialize takes: 1644402567873618609 ns.
+Measure bandwidth:
+size	duration (ns)	bandwidth (Bps)
+  12288	      151477	 81121226.3
+  12288	       74741	164407754.8
+  12288	       71152	172700697.1
+  12288	       62655	196121618.4
+  12288	       62295	197254996.4
+  10240	      121313	 84409750.0
+------------------ Total ------------------
+71680	543633	1.31854e+08

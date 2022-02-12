@@ -1,0 +1,21 @@
+Roundtrip...
+-------------------------
+Connecting to server royal-09:53706
+
+[Integer]
+Serialize takes: 6822ns. 
+Deserialize takes: 18256ns. 
+Roundtrip takes: 6242253ns. 
+Serialize takes: 997ns. 
+Deserialize takes: 1579ns. 
+Roundtrip takes: 391530ns. 
+Serialize takes: 589ns. 
+Deserialize takes: 1464ns. 
+Roundtrip takes: 373946ns. 
+Serialize takes: 580ns. 
+Deserialize takes: 1467ns. 
+Roundtrip takes: 367166ns. 
+Serialize takes: 566ns. 
+Deserialize takes: 1445ns. 
+Roundtrip takes: 299601ns. 
+

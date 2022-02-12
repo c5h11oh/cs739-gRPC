@@ -1,0 +1,81 @@
+Connecting to server localhost:53706
+
+Marshal and unmarshal...
+[Integer]
+Serialize takes:         2075 ns.
+12: 
+Serialize takes:         1818 ns.
+12: 
+Serialize takes:          958 ns.
+12: 
+Serialize takes:          803 ns.
+12: 
+Serialize takes:          918 ns.
+12: 
+
+[Double]
+Serialize takes:         1098 ns.
+12: 
+Serialize takes:         1021 ns.
+12: 
+Serialize takes:          804 ns.
+12: 
+Serialize takes:          835 ns.
+12: 
+Serialize takes:          868 ns.
+12: 
+
+[String - 10 chars]
+Serialize takes:         1606 ns.
+12: 
+Serialize takes:         1198 ns.
+12: 
+Serialize takes:         1062 ns.
+12: 
+Serialize takes:         1114 ns.
+12: 
+Serialize takes:         1144 ns.
+12: 
+
+[String - 1000 chars]
+Serialize takes:         3368 ns.
+12: 
+Serialize takes:         2115 ns.
+12: 
+Serialize takes:         2099 ns.
+12: 
+Serialize takes:         2055 ns.
+12: 
+Serialize takes:         1879 ns.
+12: 
+
+[Complex]
+Serialize takes:         1353 ns.
+12: 
+Serialize takes:         1135 ns.
+12: 
+Serialize takes:         1020 ns.
+12: 
+Serialize takes:         1024 ns.
+12: 
+Serialize takes:         1024 ns.
+12: 
+
+Roundtrip...
+[Integer]
+Serialize takes:          923 ns.
+Roundtrip takes: 230827ns. 
+12: 
+Serialize takes:          842 ns.
+Roundtrip takes: 190067ns. 
+12: 
+Serialize takes:          837 ns.
+Roundtrip takes: 217804ns. 
+12: 
+Serialize takes:         1083 ns.
+Roundtrip takes: 241956ns. 
+12: 
+Serialize takes:          894 ns.
+Roundtrip takes: 238611ns. 
+12: 
+
