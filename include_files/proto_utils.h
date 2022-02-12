@@ -58,6 +58,10 @@ Status GenericSerialize(const grpc::protobuf::MessageLite& msg, ByteBuffer* bb,
                 "::protobuf::io::ZeroCopyOutputStream");
   *own_buffer = true;
   int byte_size = static_cast<int>(msg.ByteSizeLong());
+  
+  struct timespec t, u;
+  clock_gettime(CLOCK_REALTIME, &t);
+  
   if (static_cast<size_t>(byte_size) <= GRPC_SLICE_INLINED_SIZE) {
     Slice slice(byte_size);
     // We serialize directly into the allocated slices memory
@@ -66,12 +70,19 @@ Status GenericSerialize(const grpc::protobuf::MessageLite& msg, ByteBuffer* bb,
     ByteBuffer tmp(&slice, 1);
     bb->Swap(&tmp);
 
+    clock_gettime(CLOCK_REALTIME, &u);
+    std::cout << "Serialize takes: " << ((u.tv_nsec - t.tv_nsec) + (u.tv_sec - t.tv_sec) * 1000000000) << "ns. \n";
+
     return g_core_codegen_interface->ok();
   }
   ProtoBufferWriter writer(bb, kProtoBufferWriterMaxBufferLength, byte_size);
-  return msg.SerializeToZeroCopyStream(&writer)
+  bool rt_val = msg.SerializeToZeroCopyStream(&writer)
              ? g_core_codegen_interface->ok()
              : Status(StatusCode::INTERNAL, "Failed to serialize message");
+  clock_gettime(CLOCK_REALTIME, &u);
+  std::cout << "Serialize takes: " << ((u.tv_nsec - t.tv_nsec) + (u.tv_sec - t.tv_sec) * 1000000000) << "ns. \n";
+  
+  return rt_val;
 }
 
 // BufferReader must be a subclass of ::protobuf::io::ZeroCopyInputStream.
@@ -86,6 +97,10 @@ Status GenericDeserialize(ByteBuffer* buffer,
   if (buffer == nullptr) {
     return Status(StatusCode::INTERNAL, "No payload");
   }
+  
+  struct timespec t, u;
+  clock_gettime(CLOCK_REALTIME, &t);
+  
   Status result = g_core_codegen_interface->ok();
   {
     ProtoBufferReader reader(buffer);
@@ -96,6 +111,10 @@ Status GenericDeserialize(ByteBuffer* buffer,
       result = Status(StatusCode::INTERNAL, msg->InitializationErrorString());
     }
   }
+
+  clock_gettime(CLOCK_REALTIME, &u);
+  std::cout << "Deserialize takes: " << ((u.tv_nsec - t.tv_nsec) + (u.tv_sec - t.tv_sec) * 1000000000) << "ns. \n";
+
   buffer->Clear();
   return result;
 }
@@ -113,22 +132,12 @@ class SerializationTraits<
  public:
   static Status Serialize(const grpc::protobuf::MessageLite& msg,
                           ByteBuffer* bb, bool* own_buffer) {
-    struct timespec t, u;
-    clock_gettime(CLOCK_REALTIME, &t);
-    Status result = GenericSerialize<ProtoBufferWriter, T>(msg, bb, own_buffer);
-    clock_gettime(CLOCK_REALTIME, &u);
-    std::cout << "Serialize takes: " << ((u.tv_nsec - t.tv_nsec) + (u.tv_sec - t.tv_sec) * 1e9) << "ns. \n";
-    return result;
+    return GenericSerialize<ProtoBufferWriter, T>(msg, bb, own_buffer);
   }
 
   static Status Deserialize(ByteBuffer* buffer,
                             grpc::protobuf::MessageLite* msg) {
-    struct timespec t, u;
-    clock_gettime(CLOCK_REALTIME, &t);
-    Status result = GenericDeserialize<ProtoBufferReader, T>(buffer, msg);
-    clock_gettime(CLOCK_REALTIME, &u);
-    std::cout << "Deserialize takes: " << ((u.tv_nsec - t.tv_nsec) + (u.tv_sec - t.tv_sec) * 1e9) << "ns. \n";
-    return result; 
+    return GenericDeserialize<ProtoBufferReader, T>(buffer, msg);
   }
 };
 #endif

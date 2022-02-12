@@ -19,7 +19,7 @@ using grpc::Status;
 using namespace cs739;
 
 // #define BUFSIZE 2097152 // 2MB
-#define BUFSIZE 524288 // 512KB
+#define BUFSIZE 12288 // 12KB
 /* Protobuf ():
     bytes 	May contain any arbitrary sequence of bytes no longer than 2^32.
 */
@@ -52,8 +52,9 @@ public:
         std::string buf(bufsize, '\0');
         
         // array to store all timestamp
-        timestamps = (struct timespec*)malloc(sizeof(struct timespec) * (10 + filesize / bufsize));
-        ts_ptr = timestamps;
+        struct timespec tss[(10 + filesize / bufsize)];
+        // timestamps = (struct timespec*)malloc(sizeof(struct timespec) * (10 + filesize / bufsize));
+        ts_ptr = timestamps = tss;
 
         clock_gettime(CLOCK_MONOTONIC, ts_ptr++); // start
         while (file.read(&buf[0], bufsize)) {
@@ -88,11 +89,12 @@ public:
             }
             measure_bandwidth(bufsize, buf.size());
         } else {
+            std::cerr << status.error_code() << ": " << status.error_message() << std::endl;
             std::cout << "Fail to send file\n";
             goto cleanup;
         }
 cleanup:
-        free(timestamps);
+        // free(timestamps);
         return;
     }
 
@@ -109,7 +111,8 @@ private:
             struct timespec* t = (timestamps + i), *u = (timestamps + i + 1);
             long dur_ns = (u->tv_nsec - t->tv_nsec) + (u->tv_sec - t->tv_sec) * 1000000000;
             double Bps = ((i == count - 1) ? last_size : usual_size) * 1.0 / (dur_ns / 1e9);
-            std::cout << ((i == count - 1) ? last_size : usual_size) << "\t" << dur_ns << "\t" << Bps << "\n";
+            // std::cout << ((i == count - 1) ? last_size : usual_size) << "\t" << dur_ns << "\t" << Bps << "\n";
+            printf("%7d\t%12ld\t%11.1f\n", ((i == count - 1) ? last_size : usual_size), dur_ns, Bps);
         }
         
         int size_total = usual_size * (count - 1) + last_size;
@@ -126,7 +129,7 @@ void print_usage(char* proc_name = nullptr) {
 }
 
 int main(int argc, char** argv) {
-    std::string server_addr = "localhost:53706"; // royal-09=128.105.37.149:53706; royal-##=128.105.37.(140+##)
+    std::string server_addr = "128.105.37.149:53706"; // royal-09=128.105.37.149:53706; royal-##=128.105.37.(140+##)
 
     int opt;
     while ((opt = getopt(argc, argv, "hs:")) != -1) {

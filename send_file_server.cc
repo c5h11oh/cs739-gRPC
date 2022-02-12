@@ -25,7 +25,7 @@ public:
 
         Data data;
         uint64_t size = 0;
-        std::ofstream file("received_file", std::ios::out | std::ios::binary);
+        std::ofstream file("received_file", std::ios::out | std::ios::binary | std::ios::trunc);
         while (reader->Read(&data)) {
             size += data.b().size();
             // std::cout << "this data.b() size: " << data.b().size() << ", accumulated size: " << size << "\n";

@@ -5,6 +5,7 @@
 #include <limits.h> // LONG_MAX
 
 #include <grpcpp/grpcpp.h>
+#include <google/protobuf/empty.pb.h>
 #include "exchange_info.grpc.pb.h"
 
 using grpc::Channel;
@@ -141,6 +142,27 @@ public:
         return;
     }
 
+    void round_trip() {
+        ClientContext context;
+        google::protobuf::Empty empty;
+        cs739::Time time;
+
+        struct timespec t, u; 
+        clock_gettime(CLOCK_MONOTONIC, &t);
+        Status status = stub_->RoundTrip(&context, empty, &time);
+        clock_gettime(CLOCK_MONOTONIC, &u);
+        long request  = (time.nsec() - t.tv_nsec) + (time.sec() - t.tv_sec) * 1000000000;
+        long response = (u.tv_nsec - time.nsec()) + (u.tv_sec - time.sec()) * 1000000000;
+
+        if (status.ok()) {
+            std::cout << "Round-trip time: " << request + response << " ns\n" <<
+                         "Request time:    " << request << " ns\n" <<
+                         "Response time:   " << response << " ns\n\n\n";
+        } else {
+            std::cerr << status.error_code() << ": " << status.error_message() << std::endl;
+        }
+    }
+
 private:
     std::unique_ptr<ExchangeInfo::Stub> stub_;
 };
@@ -170,13 +192,25 @@ int main(int argc, char** argv) {
     if (argc > 1) {
         server_addr = argv[1];
     }
+    
+    // test round trip
+    {        
+        std::cout << "Roundtrip...\n-------------------------\n";
+        std::cout << "Connecting to server " << server_addr << std::endl << std::endl;
+        ExchangeInfoClient client(grpc::CreateChannel(server_addr, grpc::InsecureChannelCredentials()));
 
-    std::cout << "Connecting to server " << server_addr << std::endl << std::endl;
-    ExchangeInfoClient client(grpc::CreateChannel(server_addr, grpc::InsecureChannelCredentials()));
+        for (int j = 0; j < 10; ++j)
+            client.round_trip();
+        std::cout << "\n";
+    }
     
     // only test marshal on localhost
     if (argc == 1) { 
-        std::cout << "Marshal and unmarshal...\n";
+        
+        std::cout << "Marshal and unmarshal...\n-------------------------\n";
+        std::cout << "Connecting to server " << server_addr << std::endl << std::endl;
+        ExchangeInfoClient client(grpc::CreateChannel(server_addr, grpc::InsecureChannelCredentials()));
+
         std::cout << "[Integer]\n";
         int32_t i = 5, ii;
         for (int j = 0; j < 5; ++j)
@@ -191,6 +225,12 @@ int main(int argc, char** argv) {
 
         std::cout << "[String - 10 chars]\n";
         std::string s = long_str.substr(0, 10);
+        for (int j = 0; j < 5; ++j)
+            std::string ss = client.xchg_string(s);
+        std::cout << "\n";
+
+        std::cout << "[String - 100 chars]\n";
+        s = long_str.substr(0, 100);
         for (int j = 0; j < 5; ++j)
             std::string ss = client.xchg_string(s);
         std::cout << "\n";
@@ -212,17 +252,7 @@ int main(int argc, char** argv) {
         // std::cout << comp_i << comp_d << comp_s << std::endl;
         // std::cout << "original: " << i << "\t" << d << "\t" << s << std::endl;
         // std::cout << "return: " << ii << "\t" << dd << "\t" << ss << std::endl;
-    }
 
-    // test round trip
-    {
-        std::cout << "Roundtrip...\n";
-        std::cout << "[Integer]\n";
-        int32_t i = 5, ii;
-        for (int j = 0; j < 5; ++j)
-            ii = client.xchg_int(i, true);
-        std::cout << "\n";
-        // TODO: req & resp time; breakdown.
     }
 
     return 0;

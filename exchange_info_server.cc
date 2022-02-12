@@ -1,11 +1,13 @@
 #include <iostream>
 #include <memory>
+#include <time.h>
 
 #include <grpc/grpc.h>
 #include <grpcpp/security/server_credentials.h>
 #include <grpcpp/server.h>
 #include <grpcpp/server_builder.h>
 #include <grpcpp/server_context.h>
+#include <google/protobuf/empty.pb.h>
 
 #include "exchange_info.grpc.pb.h"
 #include "exchange_info.pb.h"
@@ -50,6 +52,14 @@ public:
         out->set_i(in->i());
         out->set_d(in->d());
         out->set_s(in->s());
+        return Status::OK;
+    }
+
+    Status RoundTrip(ServerContext* context, const google::protobuf::Empty* in, cs739::Time* out) {
+        struct timespec t;
+        clock_gettime(CLOCK_MONOTONIC, &t);
+        out->set_sec(t.tv_sec);
+        out->set_nsec(t.tv_nsec);
         return Status::OK;
     }
 };
