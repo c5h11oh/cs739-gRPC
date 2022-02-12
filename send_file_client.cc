@@ -6,6 +6,7 @@
 #include <time.h> // clock_gettime
 #include <limits.h> // LONG_MAX
 #include <unistd.h> // argument parsing
+#include <stdlib.h> // malloc
 
 #include <grpcpp/grpcpp.h>
 #include "send_file.grpc.pb.h"
@@ -17,7 +18,8 @@ using grpc::ClientWriter;
 using grpc::Status;
 using namespace cs739;
 
-#define MAXBUFSIZE 2097152 // 2MB
+// #define BUFSIZE 2097152 // 2MB
+#define BUFSIZE 524288 // 512KB
 /* Protobuf ():
     bytes 	May contain any arbitrary sequence of bytes no longer than 2^32.
 */
@@ -44,17 +46,22 @@ public:
         file.seekg(0, std::ios::end);
         uint64_t filesize = file.tellg();
         file.seekg(0);
-        uint64_t bufsize = std::min(filesize, (uint64_t)MAXBUFSIZE);
         
+        // buffer to be filled with data and sent by gRPC
+        uint64_t bufsize = (uint64_t)BUFSIZE;
         std::string buf(bufsize, '\0');
-        struct timespec t, u;
-        clock_gettime(CLOCK_REALTIME, &t);
+        
+        // array to store all timestamp
+        timestamps = (struct timespec*)malloc(sizeof(struct timespec) * (10 + filesize / bufsize));
+        ts_ptr = timestamps;
 
+        clock_gettime(CLOCK_MONOTONIC, ts_ptr++); // start
         while (file.read(&buf[0], bufsize)) {
             d.set_b(buf);
             if (!writer->Write(d))
                 break;
             count += d.b().size();
+            clock_gettime(CLOCK_MONOTONIC, ts_ptr++);
         }
         if (file.eof()) {
             buf.resize(file.gcount());
@@ -63,30 +70,55 @@ public:
             count += d.b().size();
         }
         writer->WritesDone();
+        clock_gettime(CLOCK_MONOTONIC, ts_ptr++); // end
+
         Status status = writer->Finish();
         if (status.ok()) {
-            clock_gettime(CLOCK_REALTIME, &u);
-            std::cout << "Success sending data. stop timer and checksum...\n";
+            // clock_gettime(CLOCK_MONOTONIC, &u);
+            // std::cout << "Success sending data. stop timer and checksum...\n";
             std::stringstream md5cmd; 
             md5cmd << "md5sum " << filepath_;
             std::string c_md5 = exec(md5cmd.str().c_str()).substr(0, 32);
             std::string s_md5 = reply.md5sum();
-            std::cout << "client: filesize=" << filesize << ", md5sum=" << c_md5 << "\n";
-            std::cout << "server: filesize=" << reply.r() << ", md5sum=" << s_md5 << "\n";
+            // std::cout << "client: filesize=" << filesize << ", md5sum=" << c_md5 << "\n";
+            // std::cout << "server: filesize=" << reply.r() << ", md5sum=" << s_md5 << "\n";
             if (c_md5 != s_md5 || filesize != reply.r()) {
                 std::cout << "Fail to send correct data.\n";
-                return;
+                goto cleanup;
             }
-            
-            printf("round-trip time = %8lu ms.\n", ((u.tv_nsec - t.tv_nsec) / 1000000 + (u.tv_sec - t.tv_sec) * 1000));
+            measure_bandwidth(bufsize, buf.size());
         } else {
             std::cout << "Fail to send file\n";
+            goto cleanup;
         }
+cleanup:
+        free(timestamps);
+        return;
     }
 
 private:
     std::unique_ptr<SendFile::Stub> stub_;
     char* filepath_;
+    struct timespec* timestamps, * ts_ptr;
+    void measure_bandwidth(int usual_size, int last_size) {
+        std::cout << "Measure bandwidth:\n" <<
+                     "size\tduration (ns)\tbandwidth (Bps)\n";
+        int count = (ts_ptr - timestamps) - 1;
+        int i;
+        for (i = 0; i < count; ++i) {
+            struct timespec* t = (timestamps + i), *u = (timestamps + i + 1);
+            long dur_ns = (u->tv_nsec - t->tv_nsec) + (u->tv_sec - t->tv_sec) * 1000000000;
+            double Bps = ((i == count - 1) ? last_size : usual_size) * 1.0 / (dur_ns / 1e9);
+            std::cout << ((i == count - 1) ? last_size : usual_size) << "\t" << dur_ns << "\t" << Bps << "\n";
+        }
+        
+        int size_total = usual_size * (count - 1) + last_size;
+        long dur_total_ns = (ts_ptr - 1)->tv_nsec - timestamps->tv_nsec + 
+                            ((ts_ptr - 1)->tv_sec - timestamps->tv_sec) * 1000000000;
+        double Bps_total = size_total * 1.0 / (dur_total_ns / 1e9);
+        std::cout << "------------------ Total ------------------\n" <<
+                     size_total << "\t" << dur_total_ns << "\t" << Bps_total << "\n";
+    }
 };
 
 void print_usage(char* proc_name = nullptr) {
