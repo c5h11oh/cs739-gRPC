@@ -1,0 +1,21 @@
+vv[Integer]
+Serialize takes:         1736 ns.
+Deserialize takes:       3188 ns.
+Roundtrip takes: 4.36018e+06ns. 
+vv[Double]
+Serialize takes:         1335 ns.
+Deserialize takes:       1853 ns.
+Roundtrip takes: 291034ns. 
+vv[String - 7 chars]
+Serialize takes:         1591 ns.
+Deserialize takes:       3194 ns.
+Roundtrip takes: 587448ns. 
+vv[String - 100 chars]
+Serialize takes:         2958 ns.
+Deserialize takes:       2734 ns.
+Roundtrip takes: 287294ns. 
+vv[Complex]
+Serialize takes:         1964 ns.
+Deserialize takes:       3161 ns.
+Roundtrip takes: 324086ns. 
+23570.2357Madison, Wisconsin

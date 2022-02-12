@@ -32,11 +32,12 @@ public:
 
     Status ExchangeString(ServerContext* context, const String* in, String* out) {
         std::cout << "^v [String]\n";
-        std::string str = in->data();
-        for (char& c : str) {
-            c = c + 1;
-        }
-        out->set_data(str);
+        // std::string str = in->data();
+        // for (char& c : str) {
+        //     c = c + 1;
+        // }
+        // out->set_data(str);
+        out->set_data(in->data());
         return Status::OK;
     }
 
@@ -46,9 +47,9 @@ public:
         double d = in->d();
         std::string s = in->s();
         
-        out->set_i(2357);
-        out->set_d(0.2357);
-        out->set_s("Madison, Wisconsin");
+        out->set_i(in->i());
+        out->set_d(in->d());
+        out->set_s(in->s());
         return Status::OK;
     }
 };
